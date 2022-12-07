@@ -10,6 +10,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [Concurrency](#concurrency)
     - [Java interoperability](#java-interoperability)
     - [Streams](#streams)
+    - [Workflows](#workflows)
   - [Standard and Extended library](#standard-and-extended-library)
     - [HTTP](#http)
     - [HTTP2](#http2)
@@ -24,11 +25,15 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [Database](#database)
     - [Kafka](#kafka)
     - [Cache](#cache)
+    - [FTP](#ftp)
+    - [SOAP](#soap)
   - [Security](#security)
     - [Microservices Security](#microservices-security)
     - [OAuth](#oauth)
     - [OAuth2](#oauth2)
     - [JWT](#jwt)
+    - [OSCP](#oscp)
+    - [TLS/SSL](#tlsssl)
     - [Taint Checking (Deprecated)](#taint-checking-deprecated)
   - [Cloud](#cloud)
     - [AWS Step Functions](#aws-step-functions)
@@ -69,6 +74,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Ballerina — Part 1: Concept](https://medium.com/ballerina-techblog/ballerina-part-1-concept-ec889b064de5)  | [James Clark](https://medium.com/@jclark_th)  |2019 Sept 12|
 |  Blog | [Ballerina — Part 0: Context](https://medium.com/ballerina-techblog/ballerina-programming-language-1821e55baa85)  | [James Clark](https://medium.com/@jclark_th)  |2019 Sept 11|
 |  Blog | [Ballerina: Why a New Programming Language](https://medium.com/ballerina-techblog/ballerina-why-a-new-programming-language-8cedbc782caa)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Jun 02|
+|  Blog | [The top ten articles about Ballerina](https://lafernando.medium.com/the-top-ten-articles-about-ballerina-9c7be2acd261)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018 Sept 05|
 |  Blog | [BallerinaLang — Visual Programming and its Role in Service Integration](https://medium.com/@nadeeshaangunasinghe/ballerinalang-visual-programming-and-its-role-in-service-integration-91dda041fa15)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2017 Aug 27|
 
 
@@ -138,6 +144,11 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Lets write a window in Ballerina](https://medium.com/ballerina-techblog/lets-write-a-window-in-ballerina-2bfa40cfb7fc)  | [Gimantha Bandara](https://medium.com/@gimanthabandara)  |2019 Mar 11|
 |  Blog | [Writing Ballerina Streaming Extensions](https://medium.com/ballerina-techblog/writing-ballerina-streaming-extensions-304c9f815861)  | [Grainier Perera](https://medium.com/@grainier)  |2019 Mar 11|
+
+### Workflows
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Simple Long Running Workflows with Ballerina](https://lafernando.medium.com/simple-long-running-workflows-with-ballerina-e3617631b81c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018 Oct 08|
 
 ## Standard and Extended library 
 
@@ -258,6 +269,16 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Redesigning of Ballerina Cache](https://medium.com/ballerina-techblog/redesigning-of-ballerina-cache-a2cf59b0fee1)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2020 Jun 27|
 
+### FTP
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Ballerina FTP client](https://bhashineen.medium.com/ballerina-ftp-client-1226a48f0b71)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021 July 14 |
+
+### SOAP
+
+|  Blog | [Ballerina SOAP Connector](https://bhashineen.medium.com/ballerina-soap-connector-3974b6efaf2b)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019 Apr 17 |
+
 ## Security
 
 ### Microservices Security
@@ -285,6 +306,17 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Securing Microservices with JWT](https://medium.com/ballerina-techblog/securing-microservices-with-jwt-a16b738b110f) | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2021 Oct 21|
+
+### OSCP
+
+|  Blog | [CRL, OCSP and OCSP stapling validation with Ballerina](https://bhashineen.medium.com/crl-ocsp-and-ocsp-stapling-validation-with-ballerina-31f8b58fd5cf)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018 Sept 15 |
+|  Blog | [[Ballerina] Enable OCSP stapling in Ballerina](https://bhashineen.medium.com/ballerina-enable-ocsp-stapling-in-ballerina-3cb404b8c415)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018 Aug 13 |
+
+### TLS/SSL
+
+|  Blog | [Configuring Transport Layer Security (TLS/SSL) in Ballerina Client](https://bhashineen.medium.com/configuring-transport-layer-security-tls-ssl-in-ballerina-client-65cdf4baca2f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019 Oct 02 |
+|  Blog | [Configure Ciphers and SSL protocols in Ballerina](https://bhashineen.medium.com/configure-ciphers-and-ssl-protocols-in-ballerina-51053004fff)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 30 |
+|  Blog | [SSL Mutual Authentication with Ballerina](https://bhashineen.medium.com/ssl-mutual-authentication-with-ballerina-653aa50f15f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 28 |
 
 ### Taint Checking (Deprecated)
 |Type   | Title  |Author  | Publisehd Date  |
@@ -402,6 +434,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Ballerina Hello World: The IntelliJ Style!](https://nipunaranasinghe.medium.com/ballerina-hello-world-the-intellij-style-23b7c5da29d7)   | [Nipuna Ranasinghe](https://medium.com/@nipunaranasinghe)  |2021 Apr 12|
 |  Blog | [Setting up Ballerina in IntelliJ IDEA](https://medium.com/ballerina-techblog/setting-up-ballerina-in-intellij-idea-e49e7e150a54)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017 Nov 14|
 
 ### Composer (Deprecated)
@@ -462,7 +495,9 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [How to Create a REST API — Spring Boot and Ballerina](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8) | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2022 Feb 18|
 |  Blog | [gRPC Compression Support in Go, Java, and Ballerina](https://buddhikothalawala.medium.com/grpc-compression-support-in-go-java-and-ballerina-76fefd0f4713)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2021 Oct 22|
+|  Blog | [Echo Websocket service example — GO vs NodeJs vs Ballerina](https://bhashineen.medium.com/echo-websocket-service-example-go-vs-nodejs-vs-ballerina-10dc2807b5af)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2020 Oct 31 |
 |  Blog | [Spring Boot vs Ballerina: Back-end For Front-end (BFF) Service](https://medium.com/ballerina-techblog/spring-boot-vs-ballerina-back-end-for-front-end-bff-service-e108eda70f95)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Dec 21|
+|  Blog | [Converting a Spring Boot Service To Ballerina](https://lafernando.medium.com/converting-a-spring-boot-service-to-ballerina-ab19082c8b11)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019 Nov 27|
 |  Blog | [Spring Boot vs Ballerina: Hello-World Service](https://medium.com/ballerina-techblog/level-zero-spring-boot-vs-ballerina-805d01739ea3)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Nov 22|
 |  Blog | [Managing data using Ballerina vs Go](https://medium.com/ballerina-techblog/managing-data-using-ballerina-vs-go-fcbc9d20f691)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2018 Dec 19|
 |  Blog | [Dockerize services written in Go, SpringBoot & Ballerina — A comparison](https://medium.com/@kishanthan/dockerize-services-written-in-go-vs-springboot-vs-ballerina-a-comparison-5629fcc5658)  | [Kishanthan Thangarajah](https://medium.com/@kishanthan)  |2018 Dec 14|
@@ -471,7 +506,9 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Get Daily Exchange Rates via SMS Using Ballerina](https://medium.com/better-programming/get-daily-exchange-rates-via-sms-using-ballerina-6cfb577633c9)  | [Malintha Ranasinghe](https://medium.com/@malintha1996)  |2022 Aug 25|
 |  Blog | [Overview of manipulating data in Ballerina with different APIs (PayPal API and randomuser.me)](https://medium.com/ballerina-techblog/overview-of-manipulating-data-in-ballerina-with-different-apis-paypal-api-and-randomuser-me-720828919fab) | [Dulaj Dilshan](https://medium.com/@dulajdilshan)  |2022 Aug 16|
+|  Blog | [Extract data from a mail and upload it to a Google Spreadsheet using Ballerina Integrator](https://medium.com/@aquib_49146/extract-data-from-a-mail-and-upload-it-to-a-google-spreadsheet-using-ballerina-integrator-82e6e23ea2fb)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2020 Jan 02|
 |  Blog | [[Ballerina] Event Notification via Webhooks](https://medium.com/ballerina-techblog/ballerina-event-notification-via-webhooks-bc7cc63f4b6e)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 May 01|
 |  Blog | [Tweet my Stars, Ballerina!](https://medium.com/@maryamzi/tweet-my-stars-ballerina-3a9652226116)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017 Oct 23|
 
