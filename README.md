@@ -22,7 +22,6 @@ A curated list of awesome Ballerina resources. Once you have an overview of the 
 |  Blog | [Ballerina: Data Types](https://ayesh9303.medium.com/ballerina-data-types-c3d5b4166cd8)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
 |  Blog | [Hello, World! Program in Ballerina](https://ayesh9303.medium.com/hello-world-program-in-ballerina-9678d2c284fa)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
 |  Blog | [[Ballerina] Working with JSON — JSON to record conversion](https://medium.com/ballerina-techblog/ballerina-working-with-json-part-i-json-to-record-conversion-1e810b0a30f0)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021 Jan 27|
- 2022 Feb 20 - By [Ayesh Almeida](https://medium.com/@ayesh9303)
 
 ## Concurrency
 
@@ -191,6 +190,8 @@ A curated list of awesome Ballerina resources. Once you have an overview of the 
 |  Blog | [Ballerina statement editor](https://medium.com/ballerina-techblog/ballerina-statement-editor-a03ae23478d0)  | [Madusha Gunasekara](https://medium.com/@madushagunasekara)  |2022 Sept 20|
 
 ### Language Server 
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  Blog | [A Practical Guide for Language Server Protocol](https://medium.com/ballerina-techblog/practical-guide-for-the-language-server-protocol-3091a122b750)  | [Malintha Ranasinghe](https://medium.com/@malintha1996)  |2022 Jun 28|
 
 ## Testing
