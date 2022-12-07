@@ -1,5 +1,42 @@
 # Awsome Ballerina
-A curated list of awesome Ballerina resources. Once you have an overview of the language, here are resources you can use to learn more.
+A list of awesome Ballerina resources. Once you have an overview of the language, here are resources you can use to learn more.
+
+- [Awsome Ballerina](#awsome-ballerina)
+  - [General](#general)
+  - [Language](#language)
+  - [Concurrency](#concurrency)
+  - [HTTP](#http)
+  - [GraphQL](#graphql)
+  - [WebSocket](#websocket)
+  - [Pub/Sub](#pubsub)
+  - [SerDes](#serdes)
+  - [Email](#email)
+  - [Websub](#websub)
+  - [gRPC](#grpc)
+  - [OpenAPI](#openapi)
+  - [AsyncAPI](#asyncapi)
+  - [Kafka](#kafka)
+  - [Cache](#cache)
+  - [Security](#security)
+    - [Microservices Security](#microservices-security)
+    - [OAuth2](#oauth2)
+    - [JWT](#jwt)
+  - [Cloud](#cloud)
+    - [AWS Step Functions](#aws-step-functions)
+    - [AWS Lambda](#aws-lambda)
+    - [Azure functions](#azure-functions)
+  - [Tooling](#tooling)
+    - [SemVer validator](#semver-validator)
+    - [Strand dump tool](#strand-dump-tool)
+    - [Ballerina shell](#ballerina-shell)
+  - [Editor](#editor)
+    - [VS Code](#vs-code)
+    - [Language Server](#language-server)
+  - [Testing](#testing)
+  - [Comparisons with other languages](#comparisons-with-other-languages)
+  - [Usecases](#usecases)
+  - [Ballerina Developers](#ballerina-developers)
+
 
 ## General
 
