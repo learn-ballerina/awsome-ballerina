@@ -1,0 +1,22 @@
+name: Push File
+
+on: push
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Pushes README file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.LEARN_BALLERINA_RESOURCES }}
+      with:
+        source_file: 'README.md'
+        destination_repo: 'learn-ballerina/learn-ballerina.github.io'
+        destination_folder: 'src'
+        user_email: 'anupama@wso2.com'
+        user_name: 'anupama-pathirage'
+        commit_message: 'Add resources updates'

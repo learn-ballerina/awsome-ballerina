@@ -5,10 +5,22 @@ A list of awesome Ballerina resources. Once you have an overview of the language
   - [General](#general)
   - [Language Concepts](#language-concepts)
     - [General Language](#general-language)
+      - [Error handling](#error-handling)
+      - [JSON](#json)
+      - [XML](#xml)
+      - [Immutability](#immutability)
+      - [Binding Patterns](#binding-patterns)
+      - [Functions](#functions)
+      - [Type conversions](#type-conversions)
+      - [Language integrated queries](#language-integrated-queries)
+      - [Listners](#listners)
+      - [Other Data types](#other-data-types)
+      - [Statements](#statements)
     - [Data structures and algorithms](#data-structures-and-algorithms)
     - [Compiler](#compiler)
     - [Concurrency](#concurrency)
     - [Java interoperability](#java-interoperability)
+    - [Transactions](#transactions)
     - [Streams](#streams)
     - [Workflows](#workflows)
   - [Standard and Extended library](#standard-and-extended-library)
@@ -28,19 +40,23 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [FTP](#ftp)
     - [SOAP](#soap)
   - [Security](#security)
+    - [Ballerina security overview](#ballerina-security-overview)
     - [Microservices Security](#microservices-security)
     - [OAuth](#oauth)
     - [OAuth2](#oauth2)
     - [JWT](#jwt)
     - [OSCP](#oscp)
     - [TLS/SSL](#tlsssl)
+    - [OpenID](#openid)
     - [Taint Checking (Deprecated)](#taint-checking-deprecated)
   - [Cloud](#cloud)
+    - [Kubernetes/C2C](#kubernetesc2c)
     - [AWS Step Functions](#aws-step-functions)
     - [AWS Lambda](#aws-lambda)
     - [Azure functions](#azure-functions)
     - [Azure services](#azure-services)
     - [OpenShift](#openshift)
+  - [Observability](#observability)
   - [Tooling](#tooling)
     - [OpenAPI](#openapi)
     - [AsyncAPI](#asyncapi)
@@ -55,6 +71,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [IntelliJIDEA](#intellijidea)
     - [Composer (Deprecated)](#composer-deprecated)
   - [Testing](#testing)
+  - [Logging](#logging)
   - [Configuration management](#configuration-management)
   - [Package management](#package-management)
   - [Building and installing Ballerina](#building-and-installing-ballerina)
@@ -62,7 +79,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
   - [CI/CD](#cicd)
   - [Comparisons with other languages](#comparisons-with-other-languages)
   - [Usecases](#usecases)
-  - [Integration Patterns](#integration-patterns)
+  - [Integration and design Patterns](#integration-and-design-patterns)
 
 
 ## General
@@ -70,39 +87,106 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Seven reasons to try out Ballerina](https://medium.com/ballerina-techblog/seven-reasons-to-try-out-ballerina-f3934c4c53f0)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022 Jun 28|
+|  InfoQ | [Ballerina: a Data-Oriented Programming Language](https://www.infoq.com/articles/ballerina-data-oriented-language/)  | [Yehonathan Sharvit](https://www.infoq.com/profile/Yehonathan-Sharvit/)  |2022 May 10|
 |  Blog | [Ballerina: Integration Programming Language](https://medium.com/ballerina-techblog/ballerina-integration-programming-language-5d8e1b52e582)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 08  |
+|  InfoQ | [Ballerina Swan Lake: 10 Compelling Language Characteristics for Cloud Native Programming](https://www.infoq.com/articles/ballerina-cloud-native-programming/)  | [Dakshitha Ratnayake](https://www.infoq.com/profile/Dakshitha-Ratnayake/)  |2021 Sept 15|
+|  InfoQ | [Ballerina - An Open Source JVM Language and Platform for Cloud-Era Application Programmers](https://www.infoq.com/news/2020/01/wso2-releases-ballerina-1-1/)  | [Michael Redlich](https://www.infoq.com/profile/Michael-Redlich/)  |2020 Jan 29|
 |  Blog | [Ballerina — Part 1: Concept](https://medium.com/ballerina-techblog/ballerina-part-1-concept-ec889b064de5)  | [James Clark](https://medium.com/@jclark_th)  |2019 Sept 12|
 |  Blog | [Ballerina — Part 0: Context](https://medium.com/ballerina-techblog/ballerina-programming-language-1821e55baa85)  | [James Clark](https://medium.com/@jclark_th)  |2019 Sept 11|
 |  Blog | [Ballerina: Why a New Programming Language](https://medium.com/ballerina-techblog/ballerina-why-a-new-programming-language-8cedbc782caa)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Jun 02|
 |  Blog | [The top ten articles about Ballerina](https://lafernando.medium.com/the-top-ten-articles-about-ballerina-9c7be2acd261)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018 Sept 05|
+|  InfoQ | [Ballerina Microservices Programming Language: Introducing the Latest Release and "Ballerina Central"](https://www.infoq.com/articles/ballerina-microservices-language-part-1/)  | [Tyler Jewell](https://www.infoq.com/profile/Tyler-Jewell/)  |2018 May 29|
 |  Blog | [BallerinaLang — Visual Programming and its Role in Service Integration](https://medium.com/@nadeeshaangunasinghe/ballerinalang-visual-programming-and-its-role-in-service-integration-91dda041fa15)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2017 Aug 27|
+|  DZone | [Ballerina Dances Onto the Integration Stage](https://dzone.com/articles/ballerina-dances-onto-the-integration-stage)  | [Steve Gertiser](https://dzone.com/users/294952/javerdog@gmail.com.html)  |2017 Jul 27|
+|  DZone | [Getting Started With Ballerina in 10 Minutes](https://dzone.com/articles/getting-started-with-ballerina-in-10-minutes)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017 Mar 08|
+|  DZone | [Making Integration Great Again](https://dzone.com/articles/how-to-make-integration-great-again)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017 Feb 22|
 
 
 ## Language Concepts
 
 ### General Language
 
+#### Error handling
+
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
-|  Blog | [Control Structures in Ballerina](https://ayesh9303.medium.com/control-structures-in-ballerina-d13c288fe301)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 Jan 04|
-|  Blog | [Immutability in Ballerina — Part I](https://medium.com/ballerina-techblog/immutability-in-ballerina-part-i-e6c607ced627)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021 Sept 26|
-|  Blog | [Ballerina: Behavioral Types](https://blog.devgenius.io/ballerina-behavioral-types-bac73fe48a87)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 Jun 26|
-|  Blog | [Ballerina: Data Types](https://ayesh9303.medium.com/ballerina-data-types-c3d5b4166cd8)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
-|  Blog | [Hello, World! Program in Ballerina](https://ayesh9303.medium.com/hello-world-program-in-ballerina-9678d2c284fa)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
-|  Blog | [[Ballerina] Working with JSON — JSON to record conversion](https://medium.com/ballerina-techblog/ballerina-working-with-json-part-i-json-to-record-conversion-1e810b0a30f0)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021 Jan 27|
 |  Blog | [[Ballerina] Error Handling — Part II](https://medium.com/ballerina-techblog/ballerina-error-handling-part-ii-159fbe74c146)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019 Dec 24|
-|  Blog | [Defaultable Parameters in Ballerina](https://medium.com/@lanka.vitharana/defaultable-parameters-in-ballerina-c181f537bc76)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019 Dec 10  |
 |  Blog | [[Ballerina] Error Handling — Part I](https://medium.com/ballerina-techblog/ballerina-error-handling-part-i-d581f65c0f8d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019 Sept 28  |
+
+#### JSON
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [[Ballerina] Working with JSON — JSON to record conversion](https://medium.com/ballerina-techblog/ballerina-working-with-json-part-i-json-to-record-conversion-1e810b0a30f0)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021 Jan 27|
 |  Blog | [[Ballerina] Converting CSV to JSON](https://medium.com/ballerina-techblog/ballerina-converting-csv-to-json-22954918731)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019 Sept 25  |
 |  Blog | [Ballerina’s JSON type and lax static typing](https://medium.com/ballerina-techblog/ballerinas-json-type-and-lax-static-typing-3b952f6add01)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019 Sept 13  |
+
+#### XML
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [XML Processing Made Easy with Ballerina](https://dzone.com/articles/xml-processing-made-easy-with-ballerina)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Oct 26|
+
+#### Immutability 
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Immutability in Ballerina — Part I](https://medium.com/ballerina-techblog/immutability-in-ballerina-part-i-e6c607ced627)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021 Sept 26|
 |  Blog | [Immutable Values in Ballerina](https://medium.com/ballerina-techblog/immutable-values-in-ballerina-99f7f6232c72)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 Dec 13|
+
+#### Binding Patterns
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [Using Binding Patterns in Ballerina](https://dzone.com/articles/utilising-binding-patterns-in-ballerina)  | [Suleka Helmini](https://dzone.com/users/3667460/suleka96.html)  |2021 Oct 20|
+|  DZone | [Binding Patterns in Ballerina](https://dzone.com/articles/binding-patterns-in-ballerina)  | [Suleka Helmini](https://dzone.com/users/3667460/suleka96.html)  |2021 Oct 19|
+
+#### Functions
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Hello, World! Program in Ballerina](https://ayesh9303.medium.com/hello-world-program-in-ballerina-9678d2c284fa)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
+|  Blog | [Defaultable Parameters in Ballerina](https://medium.com/@lanka.vitharana/defaultable-parameters-in-ballerina-c181f537bc76)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019 Dec 10  |
+|  Blog | [Changing the “main” function](https://medium.com/ballerina-techblog/changing-the-main-function-4f60b319b6e4)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 Oct 04|
+
+
+#### Type conversions
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  Blog | [[Ballerina] Casting and Conversions — Part II — Stamping, Cloning and Converting](https://medium.com/ballerina-techblog/ballerina-casting-and-conversions-part-ii-stamping-cloning-and-converting-785e2ac167aa)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 Dec 11|
 |  Blog | [[Ballerina] Casting and Conversions — Part I](https://maryamzi.medium.com/ballerina-casting-and-conversions-part-i-678792616cac)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 Dec 11|
-|  Blog | [Changing the “main” function](https://medium.com/ballerina-techblog/changing-the-main-function-4f60b319b6e4)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 Oct 04|
+
+#### Language integrated queries
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [Query Expressions in Ballerina](https://stackoverflow.com/collectives/wso2/articles/72666852/query-expressions-in-ballerina)  | [Lasini Liyanage](https://stackoverflow.com/users/6570185/lasinicl)  |2022 Jun 22|
+|  DZone | [Language Integrated Queries In Ballerina](https://dzone.com/articles/language-integrated-queries-in-ballerina)  | [Mohanadarshan Vivekanandalingam](https://dzone.com/users/4448705/mohanadarshan.html)  |2020 Oct 16|
+
+#### Listners
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [[Attaching multiple services to the same listener in Ballerina](https://stackoverflow.com/collectives/wso2/articles/73277198/attaching-multiple-services-to-the-same-listener-in-ballerina)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2022 Aug 09|
+
+#### Other Data types
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Ballerina: Behavioral Types](https://blog.devgenius.io/ballerina-behavioral-types-bac73fe48a87)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 Jun 26|
+|  Blog | [Ballerina: Data Types](https://ayesh9303.medium.com/ballerina-data-types-c3d5b4166cd8)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 May 09|
+|  DZone | [Working With Data in Microservices](https://dzone.com/articles/working-with-data-in-microservices)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020 Apr 14|
 |  Blog | [Introduction to Ballerina Tables](https://medium.com/ballerina-techblog/introduction-to-ballerina-tables-205286a53752)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2018 Sept 23|
 |  Blog | [Ballerina Object type and all you need to know](https://medium.com/ballerina-techblog/ballerina-object-type-and-all-you-need-to-know-930c42a7bf95)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2018 Jul 12  |
 |  Blog | [Coding in meaningful way(Identifier literal support in ballerina ).](https://medium.com/@lanka.vitharana/identifier-literals-in-ballerina-makes-it-possible-to-have-spaces-in-identifiers-83336ecb693e)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017 May 14  |
 |  Blog | [Any type support in ballerina](https://medium.com/ballerina-techblog/any-type-support-in-ballerina-d9651ac53695)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017 May 04  |
+
+#### Statements
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Control Structures in Ballerina](https://ayesh9303.medium.com/control-structures-in-ballerina-d13c288fe301)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021 Jan 04|
 
 ### Data structures and algorithms
 
@@ -123,6 +207,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  DZone | [Concurrency-Safe Execution Using Ballerina Isolation](https://dzone.com/articles/concurrency-safe-execution-ballerina-isolation)  | [Hinduja Balasubramaniyam](https://dzone.com/users/4633935/hinduja-b.html)  |2021 Nov 07|
 |  Blog | [Ballerina Concurrency Model and Non-Blocking I/O](https://medium.com/ballerina-techblog/ballerina-concurrency-model-and-non-blocking-i-o-14c6bed595f4)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021 Feb 22|
 |  Blog | [Unveiling Ballerina Non-Blocking Architecture](https://medium.com/ballerina-techblog/unveiling-ballerina-non-blocking-architecture-3ab9866b39ed)  | [Vinod Kavinda](https://medium.com/@vinok88)  |2019 Sep 30  |
 |  Blog | [Concurrency in Ballerina (Workers, Send, Receive, Flush, Wait …)](https://medium.com/ballerina-techblog/concurrancy-in-ballerina-workers-send-receive-flush-wait-569585f3ec50)  | [Vinod Kavinda](https://medium.com/@vinok88)  |2018 Dec 28  |
@@ -137,6 +222,12 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina Interop and all you need to know](https://medium.com/@lanka.vitharana/ballerina-interop-and-all-you-need-to-know-81eef0931120)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019 Dec 10  |
+
+### Transactions
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [Practical Transaction Handling in Microservice Architecture](https://dzone.com/articles/practical-transaction-handling-in-microservice-arc)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Dec 01|
 
 ### Streams
 
@@ -158,6 +249,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Single Liner Payload Read…](https://medium.com/ballerina-techblog/single-liner-payload-read-85a16e3265fc)  | [Chamil Elladeniya](https://medium.com/@chamilelle)  |2021 Jun 06|
 |  Blog | [HTTP Deep-Dive with Ballerina: Services](https://medium.com/ballerina-techblog/http-deep-dive-with-ballerina-services-7a6e69af2fbb)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021 Jan 28|
+|  DZone | [HTTP Deep-Dive With Ballerina: Client Communication](https://dzone.com/articles/http-deep-dive-with-ballerina-client-communication)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Dec 17|
 |  Blog | [Request dispatching patterns of Ballerina HTTP service](https://medium.com/ballerina-techblog/request-dispatching-patterns-of-ballerina-http-service-16357509d7a9)  | [Chamil Elladeniya](https://medium.com/@chamilelle)  |2019 Sept 19|
 |  Blog | [Implementing a Simple Web Server using Ballerina](https://medium.com/ballerina-techblog/implementing-a-simple-web-server-using-ballerina-8d180e041536)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2019 Apr 24|
 |  Blog | [Eat My Dust! : Making of Ballerina’s Lightning Fast HTTP Transport](https://medium.com/@anfar.shafreen/eat-my-dust-making-of-ballerinas-lightning-fast-http-transport-ce6b1955ff91)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Feb 23|
@@ -186,6 +278,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Ballerina WebSocket Service — The Anatomy](https://medium.com/ballerina-techblog/understanding-ballerina-websocket-service-4babb128f9a5)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2022 May 24 |
 |  Blog | [Real-Time Stock Data Updates with WebSockets using Ballerina](https://medium.com/ballerina-techblog/real-time-stock-data-updates-with-websockets-using-ballerina-7ecb2d4dcfa9) | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021 Nov 26 |
 |  Blog | [Go Real-Time with Ballerina WebSockets](https://medium.com/ballerina-techblog/go-real-time-with-ballerina-websockets-58c40ac11d6)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021 July 28 |
+|  Video | [How to use WebSocket with Ballerina](https://youtu.be/UT51LC-bKgs)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020 Nov 05 |
 
 
 ### Pub/Sub
@@ -227,12 +320,14 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Introduction to gRPC on Ballerina](https://medium.com/ballerina-techblog/introduction-to-grpc-on-ballerina-7819d98c4e2b)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2021 Aug 28|
+|  DZone | [gRPC Basics: Why, When, and How?](https://dzone.com/articles/grpc-basics-why-when-and-how)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Jul 24|
 |  Blog | [Ballerina + gRPC](https://medium.com/ballerina-techblog/ballerina-grpc-9ee601c0968d)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2020 Apr 07|
 
 ### Database
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Create a Data API with Ballerina and H2](https://stackoverflow.com/collectives/wso2/articles/72986543/create-a-data-api-with-ballerina-and-h2)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022 Jul 17|
 |  Blog | [Interacting with a RDBMS using Ballerina](https://mshazninazeer.medium.com/interacting-with-a-rdbms-using-ballerina-63edd89f79f6)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022 Sept 21|
 |  Blog | [SQL Injection — Introduction with Ballerina](https://medium.com/mycodeideas/sql-injection-introduction-with-ballerina-30b75abad8fe)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2020 Aug 03| 
 |  Blog | [Interact with an Oracle database with Ballerina](https://medium.com/ballerina-techblog/interact-with-an-oracle-database-with-ballerina-ed84052713e8)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2019 Mar 30|
@@ -281,6 +376,12 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 ## Security
 
+### Ballerina security overview
+
+|Type   | Title  |Author  |
+|---|---|---|
+|  Website | [Ballerina security](https://ldclakmal.me/ballerina-security/)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |
+
 ### Microservices Security
 
 |Type   | Title  |Author  | Publisehd Date  |
@@ -318,12 +419,26 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Configure Ciphers and SSL protocols in Ballerina](https://bhashineen.medium.com/configure-ciphers-and-ssl-protocols-in-ballerina-51053004fff)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 30 |
 |  Blog | [SSL Mutual Authentication with Ballerina](https://bhashineen.medium.com/ssl-mutual-authentication-with-ballerina-653aa50f15f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 28 |
 
+### OpenID
+
+|  DZone | [Building a Secure REST API with OpenID Connect](https://dzone.com/articles/building-a-secure-rest-api-with-openid-connect)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Jul 14|
+
 ### Taint Checking (Deprecated)
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina taint checking guide](https://medium.com/ballerina-techblog/ballerina-taint-checking-guide-553ec9b8f153) | [Dhananjaya Wicramasingha](https://medium.com/@Dhananjaya)  |2019 Sept 25|
 
 ## Cloud
+
+### Kubernetes/C2C
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [Deploying Ballerina Code on the Cloud](https://dzone.com/articles/deploying-ballerina-code-to-cloud)  | [Anuruddha Liyanarachchi](https://dzone.com/users/4637886/anuruddhal.html)  |2021 Nov 18|
+|  DZone | [Microservices in Practice: Deployment Shouldn't Be an Afterthought](https://dzone.com/articles/microservices-in-practice-deployment)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020 Jul 06|
+|  DZone | [How Ballerina Makes Deploying to Kubernetes Easier for Developers](https://dzone.com/articles/how-ballerina-makes-deploying-to-kubernetes-easier)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020 Feb 13|
+|  DZone | [Generate Kubernetes YAML Right From Your App Code](https://dzone.com/articles/yaml-less-kubernetes)  | [Dmitry Sotnikov](https://dzone.com/users/295907/DSotnikov.html)  |2018 Jul 11|
+|  DZone | [Microservices, Docker, Kubernetes, Serverless, Service Mesh, and Beyond](https://dzone.com/articles/microservices-docker-kubernetes-serverless-service)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2018 May 11|
 
 ### AWS Step Functions
 
@@ -337,6 +452,10 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Practical Serverless: Integrating Amazon S3 and Rekognition with Ballerina](https://medium.com/ballerina-techblog/practical-serverless-integrating-amazon-s3-and-rekognition-with-ballerina-f338cdf6015c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020 Aug 31|
 |  Blog | [Test your Ballerina Function written for AWS Lambda](https://medium.com/ballerina-techblog/test-your-ballerina-function-written-for-aws-lambda-4dceff6c461a)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2020 Feb 20|
+|  DZone | [Running a Ballerina Service as a Serverless Function in AWS Lambda](https://dzone.com/articles/ballerina-services-in-serverless-world)  | [Isuru Perera](https://dzone.com/users/887623/chrishantha.html)  |2018 Jan 19|
+|  DZone | [Implementing Serverless Functions With Ballerina on AWS Lambda](https://dzone.com/articles/implementing-serverless-functions-with-ballerina-o)  | [Imesh Gunaratne](https://dzone.com/users/238910/imesh.html)  |2017 Jun 27|
+
+
 
 ### Azure functions
 
@@ -344,10 +463,13 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Practical Serverless: A Scalable OCR Solution in 10 Minutes](https://medium.com/ballerina-techblog/practical-serverless-a-scalable-ocr-solution-in-10-minutes-af9f88c6b008)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020 Aug 03|
 |  Blog | [Introduction to Azure Functions in Ballerina](https://medium.com/ballerina-techblog/introduction-to-azure-functions-in-ballerina-ffc774eae034) | [Anjana Fernando](https://medium.com/@lafernando)  |2020 Jul 23|
+|  Video | [Ballerina Azure Functions Walk-through](https://youtu.be/mCJ_o-Sdd9U)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020 Jul 23 |
 
 ### Azure services
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  DZone | [Production Grade Ballerina Microservices on Azure AKS - Part 2: Continuous Integration With Azure DevOps](https://dzone.com/articles/production-grade-ballerina-microservices-on-azure)  | [Dunith Dhanushka](https://dzone.com/users/540877/dunithd.html)  |2020 Sept 01|
+|  DZone | [Production-Grade Microservices on Azure AKS With Ballerina — Part 1: The Basics](https://dzone.com/articles/production-grade-microservices-on-azure-aks-with-b)  | [Dunith Dhanushka](https://dzone.com/users/540877/dunithd.html)  |2020 May 28|
 |  Blog | [Ballerina/Azure Cloud Case Study: Scalable Asynchronous Request Processing](https://medium.com/ballerina-techblog/ballerina-azure-cloud-case-study-scalable-asynchronous-request-processing-43d1180e2512)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019 Mar 06|
 
 ### OpenShift
@@ -356,12 +478,20 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |---|---|---|---|
 |  Blog | [Ballerina Services on OpenShift](https://medium.com/ballerina-techblog/ballerina-services-on-openshift-21f6a7836213)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2019 Mar 21|
 
+## Observability
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [Automated Microservices Observability in the Cloud](https://dzone.com/articles/automated-microservices-observability-in-the-cloud)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2021 Oct 12|
+|  DZone | [Rethinking Programming: Automated Observability](https://dzone.com/articles/rethinking-programming-automated-observability)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 May 01|
+
 ## Tooling
 
 ### OpenAPI
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO  | [Generating proper OpenAPI Documentation for Ballerina Resource APIs](https://stackoverflow.com/collectives/wso2/articles/72670105/generating-proper-openapi-documentation-for-ballerina-resource-apis)  | [Sumudu Nissanka](https://stackoverflow.com/users/10716900/lnash)  |2022 Jun 18|
 |  Blog | [Introduction to OpenAPI with Ballerina](https://medium.com/ballerina-techblog/introduction-to-openapi-with-ballerina-5b3212bd71a8)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2021 Sept 04|
 |  Blog | [Make your Own Ballerina Client Connector using the Ballerina OpenAPI Tool](https://medium.com/ballerina-techblog/make-your-own-ballerina-client-connector-using-ballerina-openapi-tool-3b375d89882)  | [Sumudu Nissanka](https://medium.com/@lnash94)  |2021 July 23|
 |  Blog | [How Ballerina OpenAPI Tool addresses your Code-First and Design-First API Approaches](https://medium.com/ballerina-techblog/how-ballerina-addresses-your-code-first-and-design-first-api-approaches-3b9b0086fda9)  | [Sumudu Nissanka](https://medium.com/@lnash94)  |2021 Apr 04|
@@ -378,6 +508,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  DZone | [Developing Ballerina Project With Ballerina CLI Tool](https://dzone.com/articles/developing-ballerina-project-with-ballerina-cli-to)  | [Dhanushka Madushan](https://dzone.com/users/3511875/dhanushkamadushan.html)  |2020 Mar 11|
 |  Blog | [Ballerina tool for distribution management](https://medium.com/ballerina-techblog/ballerina-tool-for-distribution-management-4dbd638d003a)   | [Tharik Kanaka](https://medium.com/@tharik.kanaka)  |2019 Dec 25|
 
 ### SemVer validator 
@@ -453,6 +584,12 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Unit test Ballerina integration with Mock backends](https://medium.com/ballerina-techblog/unit-test-ballerina-integration-with-mock-backends-ffff790edb9f)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2021 Aug 17|
 |  Blog | [Get started with service testing using Ballerina test framework](https://medium.com/ballerina-techblog/get-started-with-service-testing-using-ballerina-test-framework-18e3b907a33)  | [Fathima Dilhasha](https://medium.com/@dilhasha.nazeer)  |2021 Aug 17|
 
+## Logging
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  DZone | [Integrating Humio With Ballerina for Microservices Logging](https://dzone.com/articles/integrating-humio-with-ballerina)  | [PJ Hagerty](https://dzone.com/users/2997412/pjhagerty.html)  |2020 Feb 25|
+
 ## Configuration management
 
 |Type   | Title  |Author  | Publisehd Date  |
@@ -464,6 +601,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  DZone | [How to Use Ballerina Local Repository](https://dzone.com/articles/how-to-use-ballerina-local-repository)  | [Pramodya Mendis](https://dzone.com/users/4656527/pramodya.html)  |2021 Dec 10|
 |  Blog | [Internals of Module Management in Ballerina](https://medium.com/ballerina-techblog/internals-of-module-management-in-ballerina-8dfaac3b52f1)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018 Dec 23|
 |  Blog | [Cheat Sheet for Ballerina Commands associated with Module Management](https://medium.com/ballerina-techblog/cheat-sheet-for-ballerina-commands-associated-with-module-management-f56555705aff)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018 Oct 21|
 
@@ -488,19 +626,23 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [CI/CD Cloud Workflows with GitHub Actions and Ballerina](https://medium.com/ballerina-techblog/ci-cd-cloud-workflows-with-github-actions-and-ballerina-5dbda9bcea76)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019 May 09|
+|  DZone | [Effective Microservices CI/CD With GitHub Actions and Ballerina](https://dzone.com/articles/effective-microservices-cicd-with-github-actions-a)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Feb 25|
 
 ## Comparisons with other languages
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Techtarget | [A 7-point language comparison of Ballerina vs. Golang](https://www.techtarget.com/searchapparchitecture/tip/A-language-comparison-of-Ballerina-vs-Golang) | [Kerry Doyle](https://www.techtarget.com/contributor/Kerry-Doyle)  |2022 Jun 30|
 |  Blog | [How to Create a REST API — Spring Boot and Ballerina](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8) | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2022 Feb 18|
 |  Blog | [gRPC Compression Support in Go, Java, and Ballerina](https://buddhikothalawala.medium.com/grpc-compression-support-in-go-java-and-ballerina-76fefd0f4713)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2021 Oct 22|
 |  Blog | [Echo Websocket service example — GO vs NodeJs vs Ballerina](https://bhashineen.medium.com/echo-websocket-service-example-go-vs-nodejs-vs-ballerina-10dc2807b5af)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2020 Oct 31 |
+|  DZone | [File-Based Integration: Spring Integration vs Ballerina](https://dzone.com/articles/file-based-integration-spring-integration-vs-balle)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2019 Dec 23|
 |  Blog | [Spring Boot vs Ballerina: Back-end For Front-end (BFF) Service](https://medium.com/ballerina-techblog/spring-boot-vs-ballerina-back-end-for-front-end-bff-service-e108eda70f95)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Dec 21|
 |  Blog | [Converting a Spring Boot Service To Ballerina](https://lafernando.medium.com/converting-a-spring-boot-service-to-ballerina-ab19082c8b11)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019 Nov 27|
 |  Blog | [Spring Boot vs Ballerina: Hello-World Service](https://medium.com/ballerina-techblog/level-zero-spring-boot-vs-ballerina-805d01739ea3)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2019 Nov 22|
 |  Blog | [Managing data using Ballerina vs Go](https://medium.com/ballerina-techblog/managing-data-using-ballerina-vs-go-fcbc9d20f691)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2018 Dec 19|
 |  Blog | [Dockerize services written in Go, SpringBoot & Ballerina — A comparison](https://medium.com/@kishanthan/dockerize-services-written-in-go-vs-springboot-vs-ballerina-a-comparison-5629fcc5658)  | [Kishanthan Thangarajah](https://medium.com/@kishanthan)  |2018 Dec 14|
+|  DZone | [How Ballerina  Is Different From Other Programming Languages](https://dzone.com/articles/ballerinawhy-it-is-different-from-other-programmin)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017 Mar 02|
 
 ## Usecases
 
@@ -510,11 +652,17 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Overview of manipulating data in Ballerina with different APIs (PayPal API and randomuser.me)](https://medium.com/ballerina-techblog/overview-of-manipulating-data-in-ballerina-with-different-apis-paypal-api-and-randomuser-me-720828919fab) | [Dulaj Dilshan](https://medium.com/@dulajdilshan)  |2022 Aug 16|
 |  Blog | [Extract data from a mail and upload it to a Google Spreadsheet using Ballerina Integrator](https://medium.com/@aquib_49146/extract-data-from-a-mail-and-upload-it-to-a-google-spreadsheet-using-ballerina-integrator-82e6e23ea2fb)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2020 Jan 02|
 |  Blog | [[Ballerina] Event Notification via Webhooks](https://medium.com/ballerina-techblog/ballerina-event-notification-via-webhooks-bc7cc63f4b6e)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018 May 01|
+|  DZone | [Three Programming Languages That Will Drive Enterprise Development](https://dzone.com/articles/three-programming-languages-that-will-drive-the-en)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2019 Sept 19|
 |  Blog | [Tweet my Stars, Ballerina!](https://medium.com/@maryamzi/tweet-my-stars-ballerina-3a9652226116)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017 Oct 23|
 
-## Integration Patterns
+## Integration and design Patterns
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Article | [The future of SaaS middleware](https://www.telemediaonline.co.uk/the-future-of-saas-middleware/)  | EILEEN O'CONNOR  |2022 Dec 07|
+|  DZone | [Practical Microservices Development Patterns: Sync vs. Async](https://dzone.com/articles/practical-microservices-development-patterns-sync)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Jul 06|
+|  DZone | [Reactive Microservices Done Right!](https://dzone.com/articles/reactive-microservices-done-right)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Jun 24|
 |  Blog | [Clone and Aggregate Integration Pattern with Ballerina](https://medium.com/ballerina-techblog/clone-and-aggregate-integration-pattern-with-ballerina-bdcd537b683)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2018 Dec 23|
+|  DZone | [Rethinking Service Integrations With Microservices Architecture](https://dzone.com/articles/rethinking-service-integrations-with-microservices-1)  | [Imesh Gunaratne](https://dzone.com/users/238910/imesh.html)  |2017 Mar 03|
+
 
