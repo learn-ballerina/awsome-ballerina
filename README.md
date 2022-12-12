@@ -372,6 +372,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 ### SOAP
 
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  Blog | [Ballerina SOAP Connector](https://bhashineen.medium.com/ballerina-soap-connector-3974b6efaf2b)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019 Apr 17 |
 
 ## Security
@@ -410,17 +412,23 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 ### OSCP
 
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  Blog | [CRL, OCSP and OCSP stapling validation with Ballerina](https://bhashineen.medium.com/crl-ocsp-and-ocsp-stapling-validation-with-ballerina-31f8b58fd5cf)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018 Sept 15 |
 |  Blog | [[Ballerina] Enable OCSP stapling in Ballerina](https://bhashineen.medium.com/ballerina-enable-ocsp-stapling-in-ballerina-3cb404b8c415)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018 Aug 13 |
 
 ### TLS/SSL
 
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  Blog | [Configuring Transport Layer Security (TLS/SSL) in Ballerina Client](https://bhashineen.medium.com/configuring-transport-layer-security-tls-ssl-in-ballerina-client-65cdf4baca2f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019 Oct 02 |
 |  Blog | [Configure Ciphers and SSL protocols in Ballerina](https://bhashineen.medium.com/configure-ciphers-and-ssl-protocols-in-ballerina-51053004fff)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 30 |
 |  Blog | [SSL Mutual Authentication with Ballerina](https://bhashineen.medium.com/ssl-mutual-authentication-with-ballerina-653aa50f15f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017 Oct 28 |
 
 ### OpenID
 
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
 |  DZone | [Building a Secure REST API with OpenID Connect](https://dzone.com/articles/building-a-secure-rest-api-with-openid-connect)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020 Jul 14|
 
 ### Taint Checking (Deprecated)
