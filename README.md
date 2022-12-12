@@ -380,9 +380,11 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 ### Ballerina security overview
 
+<left>
 |Type   | Title  |Author  |
 |---|---|---|
 |  Website | [Ballerina security](https://ldclakmal.me/ballerina-security/)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |
+</left>
 
 ### Microservices Security
 
