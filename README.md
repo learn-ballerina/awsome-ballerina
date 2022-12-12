@@ -13,7 +13,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
       - [Functions](#functions)
       - [Type conversions](#type-conversions)
       - [Language integrated queries](#language-integrated-queries)
-      - [Listners](#listners)
+      - [Services and Listners](#services-and-listners)
       - [Other Data types](#other-data-types)
       - [Statements](#statements)
     - [Data structures and algorithms](#data-structures-and-algorithms)
@@ -67,6 +67,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [SemVer validator](#semver-validator)
     - [Strand dump tool](#strand-dump-tool)
     - [Ballerina shell](#ballerina-shell)
+    - [Debugger](#debugger)
     - [Homebrew](#homebrew)
   - [Editor](#editor)
     - [VS Code](#vs-code)
@@ -82,6 +83,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
   - [CI/CD](#cicd)
   - [Comparisons with other languages](#comparisons-with-other-languages)
   - [Usecases](#usecases)
+  - [User stories](#user-stories)
   - [Integration and design Patterns](#integration-and-design-patterns)
 
 
@@ -89,10 +91,17 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Podcast | [Simplifying Cloud Native Application Development with Ballerina](https://thenewstack.io/simplifying-cloud-native-application-development-with-ballerina/)  | [Eric Newcomer](https://www.linkedin.com/in/enewcomer/)  |2022-07-01|
 |  Blog | [Seven reasons to try out Ballerina](https://medium.com/ballerina-techblog/seven-reasons-to-try-out-ballerina-f3934c4c53f0)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-06-28|
+|  InfoQ | [Why Ballerina is a language](https://blog.jclark.com/2022/05/why-ballerina-is-language.html)  | [James Clark](https://blog.jclark.com/)  |2022-05-04|
+|  TNS | [Why Should You Program with Ballerina?](https://thenewstack.io/why-should-you-program-with-ballerina/)  | [Vishva Ahangama](https://thenewstack.io/author/vishva-ahangama/)  |2022-04-21|
+|  InfoQ | [Ballerina for Full-Stack Developers: a Guide to Creating Backend APIs](https://www.infoq.com/articles/ballerina-fullstack-rest-api)  | [Imesha Sudasingha](https://www.infoq.com/profile/Imesha-Sudasingha/)  |2022-03-14|
 |  InfoQ | [Ballerina: a Data-Oriented Programming Language](https://www.infoq.com/articles/ballerina-data-oriented-language/)  | [Yehonathan Sharvit](https://www.infoq.com/profile/Yehonathan-Sharvit/)  |2022-05-10|
+|  Video | [Highlights of Ballerina Swan Lake Release](https://www.youtube.com/watch?v=9ZqDZ3TgnDU&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=8)  |   |2021-06-29|
 |  Blog | [Ballerina: Integration Programming Language](https://medium.com/ballerina-techblog/ballerina-integration-programming-language-5d8e1b52e582)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021-05-08  |
 |  InfoQ | [Ballerina Swan Lake: 10 Compelling Language Characteristics for Cloud Native Programming](https://www.infoq.com/articles/ballerina-cloud-native-programming/)  | [Dakshitha Ratnayake](https://www.infoq.com/profile/Dakshitha-Ratnayake/)  |2021-09-15|
+|  InfoQ | [Rethinking Programming: Language and Platform for Cloud-Era Application Developers](https://www.infoq.com/articles/cloud-native-programming-ballerina)  | [Lakmal W](https://www.infoq.com/profile/Lakmal-Warusawithana/)  |2022-03-15|
+|  InfoQ | [James Clark on How Ballerina Handles Network Interaction, Data, and Concurrency](https://www.infoq.com/podcasts/james-clark-ballerina-language-network-data-concurrency/)  | [James Clark](https://www.infoq.com/profile/James-Clark/)  |2021-11-29|
 |  InfoQ | [Ballerina - An Open Source JVM Language and Platform for Cloud-Era Application Programmers](https://www.infoq.com/news/2020/01/wso2-releases-ballerina-1-1/)  | [Michael Redlich](https://www.infoq.com/profile/Michael-Redlich/)  |2020-01-29|
 |  Blog | [Ballerina — Part 1: Concept](https://medium.com/ballerina-techblog/ballerina-part-1-concept-ec889b064de5)  | [James Clark](https://medium.com/@jclark_th)  |2019-09-12|
 |  Blog | [Ballerina — Part 0: Context](https://medium.com/ballerina-techblog/ballerina-programming-language-1821e55baa85)  | [James Clark](https://medium.com/@jclark_th)  |2019-09-11|
@@ -120,6 +129,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Intuitive REST APIs and JSON Handling With Ballerina Programming Language](https://betterprogramming.pub/intuitive-rest-apis-and-json-handling-with-ballerina-a-detailed-walkthrough-c5c7c48aa0de)  | [Dakshitha Ratnayake](https://duckster.medium.com/)  |2022-05-05|
 |  Blog | [[Ballerina] Working with JSON — JSON to record conversion](https://medium.com/ballerina-techblog/ballerina-working-with-json-part-i-json-to-record-conversion-1e810b0a30f0)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021-01-27|
 |  Blog | [[Ballerina] Converting CSV to JSON](https://medium.com/ballerina-techblog/ballerina-converting-csv-to-json-22954918731)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-25  |
 |  Blog | [Ballerina’s JSON type and lax static typing](https://medium.com/ballerina-techblog/ballerinas-json-type-and-lax-static-typing-3b952f6add01)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-13  |
@@ -164,15 +174,18 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  InfoQ | [Data Manipulation with Functional Programming and Queries in Ballerina](https://www.infoq.com/articles/ballerina-data-functional-programming/)  | [Yehonathan Sharvit](https://www.infoq.com/profile/Yehonathan-Sharvit/)  |2022-08-11|
 |  SO | [Efficient Joins with Ballerina Query Expressions](https://stackoverflow.com/collectives/wso2/articles/72806142/efficient-joins-with-ballerina-query-expressions)  | [Lasini Liyanage](https://stackoverflow.com/users/6570185/lasinicl)  |2022-06-29|
 |  SO | [Query Expressions in Ballerina](https://stackoverflow.com/collectives/wso2/articles/72666852/query-expressions-in-ballerina)  | [Lasini Liyanage](https://stackoverflow.com/users/6570185/lasinicl)  |2022-06-22|
+|  Video | [Using Language Integrated Queries](https://www.youtube.com/watch?v=81XCTewSo8I&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=5)  |   |2021-09-28|
 |  DZone | [Language Integrated Queries In Ballerina](https://dzone.com/articles/language-integrated-queries-in-ballerina)  | [Mohanadarshan Vivekanandalingam](https://dzone.com/users/4448705/mohanadarshan.html)  |2020-10-16|
 
-#### Listners
+#### Services and Listners
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [[Attaching multiple services to the same listener in Ballerina](https://stackoverflow.com/collectives/wso2/articles/73277198/attaching-multiple-services-to-the-same-listener-in-ballerina)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2022-08-09|
+|  Video | [Services and Network Communication](https://www.youtube.com/watch?v=hKBjatIFxyw&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=10)  |   |2021-02-03|
 
 #### Other Data types
 
@@ -225,6 +238,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Java Interoperability in Ballerina](https://www.youtube.com/watch?v=4EINEJAtAg4&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=12)  |   |2020-12-08|
 |  Blog | [Ballerina Interop and all you need to know](https://medium.com/@lanka.vitharana/ballerina-interop-and-all-you-need-to-know-81eef0931120)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019-12-10  |
 
 ### Transactions
@@ -251,6 +265,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Changes in the HTTP Package in Ballerina Swan Lake](https://www.youtube.com/watch?v=l5KWZwHZdSA&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=7)  |   |2021-07-27|
 |  Blog | [Single Liner Payload Read…](https://medium.com/ballerina-techblog/single-liner-payload-read-85a16e3265fc)  | [Chamil Elladeniya](https://medium.com/@chamilelle)  |2021-06-06|
 |  Blog | [HTTP Deep-Dive with Ballerina: Services](https://medium.com/ballerina-techblog/http-deep-dive-with-ballerina-services-7a6e69af2fbb)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021-01-28|
 |  DZone | [HTTP Deep-Dive With Ballerina: Client Communication](https://dzone.com/articles/http-deep-dive-with-ballerina-client-communication)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-12-17|
@@ -271,6 +286,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [GraphQL Subscriptions with Ballerina: A Step-By-Step Guide](https://medium.com/ballerina-techblog/graphql-subscriptions-with-ballerina-a-step-by-step-guide-5a75e3a12813)  | [Nuvindu Dias](https://medium.com/@nuvidu-18)  |2022-09-30|
+|  Blog | [Using GraphQL and Ballerina with Multiple Data Sources](https://www.infoq.com/articles/graphql-ballerina/)  | [Anupama Pathirage](https://www.infoq.com/profile/Anupama-Pathirage/)  |2022-07-01|
+|  Video | [GraphQL and Ballerina: A Match Made in Heaven](https://www.youtube.com/watch?v=clmGc2oZpYE&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=6)  |   |2021-08-31|
 |  Blog | [REST is History, Let’s Do GraphQL (with Ballerina)](https://medium.com/ballerina-techblog/rest-is-history-lets-do-graphql-with-ballerina-dce7510b61e8)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2021-06-29|
 |  Blog | [Introduction to GraphQL with Ballerina](https://medium.com/ballerina-techblog/graphql-made-easy-with-ballerina-5ca04d9536d0)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021-02-09|
 
@@ -282,6 +299,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Ballerina WebSocket Service — The Anatomy](https://medium.com/ballerina-techblog/understanding-ballerina-websocket-service-4babb128f9a5)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2022-05-24 |
 |  Blog | [Real-Time Stock Data Updates with WebSockets using Ballerina](https://medium.com/ballerina-techblog/real-time-stock-data-updates-with-websockets-using-ballerina-7ecb2d4dcfa9) | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021-11-26 |
 |  Blog | [Go Real-Time with Ballerina WebSockets](https://medium.com/ballerina-techblog/go-real-time-with-ballerina-websockets-58c40ac11d6)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021-07-28 |
+|  TNS | [An Introduction to WebSockets with Ballerina](https://thenewstack.io/an-introduction-to-websockets-with-ballerina/)  | [Anjana Fernando](https://thenewstack.io/author/anjanafernando/do)  |2020-12-18|
 |  Video | [How to use WebSocket with Ballerina](https://youtu.be/UT51LC-bKgs)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020-11-05 |
 
 
@@ -315,6 +333,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Building Real-time Systems with WebSub](https://www.youtube.com/watch?v=ga_cyzIXW38&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=3)  |   |2021-11-30|
 |  Blog | [Event-Driven APIs With Webhook and WebSub](https://medium.com/ballerina-techblog/event-driven-apis-with-webhook-and-websub-83b0834f08f3)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2021-11-08|
 |  Blog | [[Ballerina] Registering a GitHub Webhook](https://medium.com/ballerina-techblog/ballerina-registering-a-github-webhook-1bd7a75cb32d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-08-12 |
 |  Blog | [[Ballerina] Event Notification via Webhooks](https://medium.com/ballerina-techblog/ballerina-event-notification-via-webhooks-bc7cc63f4b6e)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-07-21|
@@ -324,6 +343,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Introduction to gRPC on Ballerina](https://medium.com/ballerina-techblog/introduction-to-grpc-on-ballerina-7819d98c4e2b)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2021-08-28|
+|  Video | [gRPC in Ballerina](https://www.youtube.com/watch?v=ADZPZtXK5e8&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=15)  |   |2020-09-01|
+|  InfoQ | [Building Effective Microservices with gRPC, Ballerina, and Go](https://www.infoq.com/articles/microservices-grpc-ballerina-go)  | [Lakmal W](https://www.infoq.com/profile/Lakmal-Warusawithana/)  |2020-08-25|
 |  DZone | [gRPC Basics: Why, When, and How?](https://dzone.com/articles/grpc-basics-why-when-and-how)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-07-24|
 |  Blog | [Ballerina + gRPC](https://medium.com/ballerina-techblog/ballerina-grpc-9ee601c0968d)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2020-04-07|
 
@@ -335,6 +356,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  SO | [Interacting with a RDBMS using Ballerina](https://stackoverflow.com/collectives/wso2/articles/73795707/interacting-with-a-rdbms-using-ballerina)  | [Extremum](https://stackoverflow.com/users/2782646/extremum)  |2022-09-21|
 |  SO | [Create a Data API with Ballerina and H2](https://stackoverflow.com/collectives/wso2/articles/72986543/create-a-data-api-with-ballerina-and-h2)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-07-17|
 |  Blog | [Interacting with a RDBMS using Ballerina](https://mshazninazeer.medium.com/interacting-with-a-rdbms-using-ballerina-63edd89f79f6)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-09-21|
+|  Blog | [Connecting to and using Google’s Cloud SQL with Ballerina](https://medium.com/@kaneeldias/connecting-to-and-using-googles-cloud-sql-with-ballerina-13e2d6594686)  | [Kaneel Dias](https://medium.com/@kaneeldias)  |2021-10-21|
+|  Video | [Data Access in Ballerina](https://www.youtube.com/watch?v=lLqvaLtC3m0&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=13)  |   |2020-11-10|
 |  Blog | [SQL Injection — Introduction with Ballerina](https://medium.com/mycodeideas/sql-injection-introduction-with-ballerina-30b75abad8fe)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2020-08-03| 
 |  Blog | [Interact with an Oracle database with Ballerina](https://medium.com/ballerina-techblog/interact-with-an-oracle-database-with-ballerina-ed84052713e8)  | [Manuri Perera](https://medium.com/@Manuri)  |2019-03-30|
 |  Blog | [Containerized Ballerina service with a MongoDB data backend](https://medium.com/ballerina-techblog/containerized-ballerina-service-with-a-mongodb-data-backend-c5c0a867720e)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-11-25|
@@ -468,6 +491,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Deploying Ballerina Code on the Cloud](https://dzone.com/articles/deploying-ballerina-code-to-cloud)  | [Anuruddha Liyanarachchi](https://dzone.com/users/4637886/anuruddhal.html)  |2021-11-18|
+|  Video | [Code to Cloud with Ballerina](https://www.youtube.com/watch?v=36U5RoTdYhc&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=11)  |   |2021-01-26|
 |  DZone | [Microservices in Practice: Deployment Shouldn't Be an Afterthought](https://dzone.com/articles/microservices-in-practice-deployment)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020-07-06|
 |  DZone | [How Ballerina Makes Deploying to Kubernetes Easier for Developers](https://dzone.com/articles/how-ballerina-makes-deploying-to-kubernetes-easier)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020-02-13|
 |  DZone | [Generate Kubernetes YAML Right From Your App Code](https://dzone.com/articles/yaml-less-kubernetes)  | [Dmitry Sotnikov](https://dzone.com/users/295907/DSotnikov.html)  |2018-07-11|
@@ -483,8 +507,10 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Serverless in Ballerina](https://www.youtube.com/watch?v=12gosblVlhY&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=14)  |   |2020-10-13|
 |  Blog | [Practical Serverless: Integrating Amazon S3 and Rekognition with Ballerina](https://medium.com/ballerina-techblog/practical-serverless-integrating-amazon-s3-and-rekognition-with-ballerina-f338cdf6015c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020-08-31|
 |  Blog | [Test your Ballerina Function written for AWS Lambda](https://medium.com/ballerina-techblog/test-your-ballerina-function-written-for-aws-lambda-4dceff6c461a)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2020-02-20|
+|  TNS | [A Step-by-Step Guide For AWS Lambda Deployments with Ballerina](https://thenewstack.io/a-step-by-step-guide-for-aws-lambda-deployments-with-ballerina/)  | [Anjana Fernando](https://thenewstack.io/author/anjanafernando/do)  |2019-05-28|
 |  DZone | [Running a Ballerina Service as a Serverless Function in AWS Lambda](https://dzone.com/articles/ballerina-services-in-serverless-world)  | [Isuru Perera](https://dzone.com/users/887623/chrishantha.html)  |2018-01-19|
 |  DZone | [Implementing Serverless Functions With Ballerina on AWS Lambda](https://dzone.com/articles/implementing-serverless-functions-with-ballerina-o)  | [Imesh Gunaratne](https://dzone.com/users/238910/imesh.html)  |2017-06-27|
 
@@ -526,6 +552,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO  | [Generating proper OpenAPI Documentation for Ballerina Resource APIs](https://stackoverflow.com/collectives/wso2/articles/72670105/generating-proper-openapi-documentation-for-ballerina-resource-apis)  | [Sumudu Nissanka](https://stackoverflow.com/users/10716900/lnash)  |2022-06-18|
+|  Video | [Ballerina OpenAPI Support ](https://www.youtube.com/watch?v=cJwstQ8yynk&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=2)  |   |2022-01-25|
 |  Blog | [Introduction to OpenAPI with Ballerina](https://medium.com/ballerina-techblog/introduction-to-openapi-with-ballerina-5b3212bd71a8)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2021-09-04|
 |  Blog | [Make your Own Ballerina Client Connector using the Ballerina OpenAPI Tool](https://medium.com/ballerina-techblog/make-your-own-ballerina-client-connector-using-ballerina-openapi-tool-3b375d89882)  | [Sumudu Nissanka](https://medium.com/@lnash94)  |2021-07-23|
 |  Blog | [How Ballerina OpenAPI Tool addresses your Code-First and Design-First API Approaches](https://medium.com/ballerina-techblog/how-ballerina-addresses-your-code-first-and-design-first-api-approaches-3b9b0086fda9)  | [Sumudu Nissanka](https://medium.com/@lnash94)  |2021-04-04|
@@ -561,8 +588,16 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Ballerina Shell and Debugging Tools](https://www.youtube.com/watch?v=dYito-DW6ZA&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=9)  |   |2021-03-30|
 |  Blog | [Ballerina Shell REPL — Implementation Overview](https://medium.com/ballerina-techblog/ballerina-shell-repl-implementation-overview-ee7e909da20c)  | [Sunera Avinash](https://medium.com/@kdsuneraavinash)  |2021-03-01|
 |  Blog | [Ballerina Shell — A REPL for Ballerina](https://medium.com/ballerina-techblog/ballerina-shell-a-repl-for-ballerina-d5053c94363f) | [Sunera Avinash](https://medium.com/@kdsuneraavinash)  |2021-02-28|
+
+### Debugger
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [A Practical Guide to Ballerina Remote Debugging](https://praveennadarajah.medium.com/a-practical-guide-to-ballerina-remote-debugging-b3f8e2f9309)  | [Praveen Nadarajah](https://praveennadarajah.medium.com/)  |2021-03-31|
+
 
 ### Homebrew
 
@@ -577,6 +612,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina statement editor](https://medium.com/ballerina-techblog/ballerina-statement-editor-a03ae23478d0)  | [Madusha Gunasekara](https://medium.com/@madushagunasekara)  |2022-09-20|
+|  Video | [Ballerina Programming with VS Code ](https://www.youtube.com/watch?v=sZmRCRgVnuI&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=1)  |   |2022-02-23|
 |  Blog | [Ballerina Development With VSCode](https://medium.com/ballerina-techblog/ballerina-development-with-vscode-4a2ee4c82602)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-11-04|
 |  Blog | [Ballerina VSCode Plugin — Graphical Editor for Ballerina](https://medium.com/ballerina-techblog/ballerina-vscode-plugin-graphical-editor-for-ballerina-b6af226178d6)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-11-03|
 |  Blog | [Ballerina VSCode Plugin — Language Intelligence](https://medium.com/ballerina-techblog/ballerina-vscode-plugin-language-intelligence-39b278912b57)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-11-03|
@@ -636,6 +672,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [How to Use Ballerina Local Repository](https://dzone.com/articles/how-to-use-ballerina-local-repository)  | [Pramodya Mendis](https://dzone.com/users/4656527/pramodya.html)  |2021-12-10|
+|  Video | [Managing Dependencies in Ballerina](https://www.youtube.com/watch?v=8Z-i0VxTvK4&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=4)  |   |2021-10-26|
 |  Blog | [Internals of Module Management in Ballerina](https://medium.com/ballerina-techblog/internals-of-module-management-in-ballerina-8dfaac3b52f1)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-12-23|
 |  Blog | [Cheat Sheet for Ballerina Commands associated with Module Management](https://medium.com/ballerina-techblog/cheat-sheet-for-ballerina-commands-associated-with-module-management-f56555705aff)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-10-21|
 
@@ -688,10 +725,20 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  SO | [Server for moving object monitoring system in Ballerina - Part 1](https://stackoverflow.com/collectives/wso2/articles/73564233/server-for-moving-object-monitoring-system-in-ballerina-part-1)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-09-01|
 |  Blog | [Get Daily Exchange Rates via SMS Using Ballerina](https://medium.com/better-programming/get-daily-exchange-rates-via-sms-using-ballerina-6cfb577633c9)  | [Malintha Ranasinghe](https://medium.com/@malintha1996)  |2022-08-25|
 |  Blog | [Overview of manipulating data in Ballerina with different APIs (PayPal API and randomuser.me)](https://medium.com/ballerina-techblog/overview-of-manipulating-data-in-ballerina-with-different-apis-paypal-api-and-randomuser-me-720828919fab) | [Dulaj Dilshan](https://medium.com/@dulajdilshan)  |2022-08-16|
+|  Blog | [Uncovering Interesting 2020 Olympics Stats with Ballerina Language-integrated Queries](https://medium.com/geekculture/uncovering-interesting-2020-olympics-stats-with-ballerina-language-integrated-queries-7d5d0995b112) | [Imesha Sudasingha](https://medium.com/@loneidealist)  |2021-09-16|
 |  Blog | [Extract data from a mail and upload it to a Google Spreadsheet using Ballerina Integrator](https://medium.com/@aquib_49146/extract-data-from-a-mail-and-upload-it-to-a-google-spreadsheet-using-ballerina-integrator-82e6e23ea2fb)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2020-01-02|
 |  Blog | [[Ballerina] Event Notification via Webhooks](https://medium.com/ballerina-techblog/ballerina-event-notification-via-webhooks-bc7cc63f4b6e)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-05-01|
 |  DZone | [Three Programming Languages That Will Drive Enterprise Development](https://dzone.com/articles/three-programming-languages-that-will-drive-the-en)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2019-09-19|
+|  InfoQ | [Building an API Gateway with the Ballerina Programming Language](https://www.infoq.com/articles/ballerina-api-gateway/)  | [Nuwan Dias](https://www.infoq.com/profile/Nuwan-Dias/)  |2018-07-18|
 |  Blog | [Tweet my Stars, Ballerina!](https://medium.com/@maryamzi/tweet-my-stars-ballerina-3a9652226116)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017-10-23|
+
+## User stories
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  TNS | [How MOSIP Uses Ballerina WebSubHub for Event-Driven Integration](https://thenewstack.io/how-mosip-uses-ballerina-websubhub-for-event-driven-integration/)  | [Dakshitha Ratnayake](https://thenewstack.io/author/dakshitha-ratnayake/)  |2022-06-28|
+|  Blog | [Build Employee Onboarding Automation With WSO2 Ballerina & Choreo](https://techventuras.com/tech_blogs/build-employee-onboarding-automation-with-wso2-ballerina-and-choreo/)  | Sudaraka Jayashanka |2022-11-01|
+
 
 ## Integration and design Patterns
 
