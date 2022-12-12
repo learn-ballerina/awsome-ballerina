@@ -16,7 +16,7 @@ jobs:
       with:
         source_file: 'README.md'
         destination_repo: 'learn-ballerina/learn-ballerina.github.io'
-        destination_folder: 'src'
+        destination_folder: 'src/resources'
         user_email: 'anupama@wso2.com'
         user_name: 'anupama-pathirage'
         commit_message: 'Add resources updates'

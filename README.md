@@ -36,9 +36,12 @@ A list of awesome Ballerina resources. Once you have an overview of the language
     - [gRPC](#grpc)
     - [Database](#database)
     - [Kafka](#kafka)
+    - [Time](#time)
     - [Cache](#cache)
     - [FTP](#ftp)
     - [SOAP](#soap)
+    - [Encoding/Decoding](#encodingdecoding)
+    - [CSV I/O](#csv-io)
   - [Security](#security)
     - [Ballerina security overview](#ballerina-security-overview)
     - [Microservices Security](#microservices-security)
@@ -161,6 +164,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Efficient Joins with Ballerina Query Expressions](https://stackoverflow.com/collectives/wso2/articles/72806142/efficient-joins-with-ballerina-query-expressions)  | [Lasini Liyanage](https://stackoverflow.com/users/6570185/lasinicl)  |2022-06-29|
 |  SO | [Query Expressions in Ballerina](https://stackoverflow.com/collectives/wso2/articles/72666852/query-expressions-in-ballerina)  | [Lasini Liyanage](https://stackoverflow.com/users/6570185/lasinicl)  |2022-06-22|
 |  DZone | [Language Integrated Queries In Ballerina](https://dzone.com/articles/language-integrated-queries-in-ballerina)  | [Mohanadarshan Vivekanandalingam](https://dzone.com/users/4448705/mohanadarshan.html)  |2020-10-16|
 
@@ -327,24 +331,26 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Avoiding SQL Injection in Ballerina](hhttps://stackoverflow.com/collectives/wso2/articles/74602985/avoiding-sql-injection-in-ballerina)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-08| 
+|  SO | [Interacting with a RDBMS using Ballerina](https://stackoverflow.com/collectives/wso2/articles/73795707/interacting-with-a-rdbms-using-ballerina)  | [Extremum](https://stackoverflow.com/users/2782646/extremum)  |2022-09-21|
 |  SO | [Create a Data API with Ballerina and H2](https://stackoverflow.com/collectives/wso2/articles/72986543/create-a-data-api-with-ballerina-and-h2)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-07-17|
 |  Blog | [Interacting with a RDBMS using Ballerina](https://mshazninazeer.medium.com/interacting-with-a-rdbms-using-ballerina-63edd89f79f6)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-09-21|
 |  Blog | [SQL Injection — Introduction with Ballerina](https://medium.com/mycodeideas/sql-injection-introduction-with-ballerina-30b75abad8fe)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2020-08-03| 
-|  Blog | [Interact with an Oracle database with Ballerina](https://medium.com/ballerina-techblog/interact-with-an-oracle-database-with-ballerina-ed84052713e8)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2019-03-30|
-|  Blog | [Containerized Ballerina service with a MongoDB data backend](https://medium.com/ballerina-techblog/containerized-ballerina-service-with-a-mongodb-data-backend-c5c0a867720e)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-11-25|
-|  Blog | [How to connect to MongoDB Atlas with Ballerina](https://medium.com/ballerina-techblog/lets-connect-to-mongodb-atlas-with-ballerina-8fd46f168fb6)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-11-02|
-|  Blog | [[Ballerina] Database connection pool exhausted?](https://medium.com/ballerina-techblog/ballerina-database-connection-pool-exhausted-738e5cfba4be)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-10-27|
+|  Blog | [Interact with an Oracle database with Ballerina](https://medium.com/ballerina-techblog/interact-with-an-oracle-database-with-ballerina-ed84052713e8)  | [Manuri Perera](https://medium.com/@Manuri)  |2019-03-30|
+|  Blog | [Containerized Ballerina service with a MongoDB data backend](https://medium.com/ballerina-techblog/containerized-ballerina-service-with-a-mongodb-data-backend-c5c0a867720e)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-11-25|
+|  Blog | [How to connect to MongoDB Atlas with Ballerina](https://medium.com/ballerina-techblog/lets-connect-to-mongodb-atlas-with-ballerina-8fd46f168fb6)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-11-02|
+|  Blog | [[Ballerina] Database connection pool exhausted?](https://medium.com/ballerina-techblog/ballerina-database-connection-pool-exhausted-738e5cfba4be)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-10-27|
 |  Blog | [Data Access for Microservices](https://medium.com/ballerina-techblog/data-services-with-ballerina-70ba17bd5c80)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018-08-21|
-|  Blog | [XA transaction example with Ballerina — Oracle and MySQL as resource managers](https://medium.com/ballerina-techblog/xa-transaction-example-with-ballerina-df9221bcf664)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-13|
-|  Blog | [Using a Ballerina table as a proxy to an actual database table](https://medium.com/@Manuri/using-a-ballerina-table-as-a-proxy-to-an-actual-database-table-48024792a434)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-12|
-|  Blog | [Interact with a Postgresql database with Ballerina!](https://medium.com/ballerina-techblog/interact-with-a-postgresql-database-with-ballerina-301fd5bc2c01)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-12|
-|  Blog | [Oracle RefCursor Example with Ballerina](https://medium.com/ballerina-techblog/oracle-refcursor-example-with-ballerina-1448cc3aef11)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-11|
-|  Blog | [Oracle PL/SQL example with Ballerina](https://medium.com/ballerina-techblog/oracle-pl-sql-example-with-ballerina-b978eb8a768)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-09|
-|  Blog | [“select” iterable operation on Ballerina tables](https://medium.com/ballerina-techblog/example-of-select-iterable-operation-on-ballerina-tables-91f46d408597)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-08-13|
+|  Blog | [XA transaction example with Ballerina — Oracle and MySQL as resource managers](https://medium.com/ballerina-techblog/xa-transaction-example-with-ballerina-df9221bcf664)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-13|
+|  Blog | [Using a Ballerina table as a proxy to an actual database table](https://medium.com/@Manuri/using-a-ballerina-table-as-a-proxy-to-an-actual-database-table-48024792a434)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-12|
+|  Blog | [Interact with a Postgresql database with Ballerina!](https://medium.com/ballerina-techblog/interact-with-a-postgresql-database-with-ballerina-301fd5bc2c01)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-12|
+|  Blog | [Oracle RefCursor Example with Ballerina](https://medium.com/ballerina-techblog/oracle-refcursor-example-with-ballerina-1448cc3aef11)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-11|
+|  Blog | [Oracle PL/SQL example with Ballerina](https://medium.com/ballerina-techblog/oracle-pl-sql-example-with-ballerina-b978eb8a768)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-09|
+|  Blog | [“select” iterable operation on Ballerina tables](https://medium.com/ballerina-techblog/example-of-select-iterable-operation-on-ballerina-tables-91f46d408597)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-08-13|
 |  Blog | [Redis Caching example with Ballerina !](https://medium.com/ballerina-techblog/redis-caching-example-with-ballerina-16f875f31faf)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2018-07-21|
-|  Blog | [Connect to your data with Ballerina](https://medium.com/ballerina-techblog/connect-to-your-data-with-ballerina-902b2bad872d)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-07-08|
+|  Blog | [Connect to your data with Ballerina](https://medium.com/ballerina-techblog/connect-to-your-data-with-ballerina-902b2bad872d)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-07-08|
 |  Blog | [Insert batch of data to DB using Ballerina](https://medium.com/ballerina-techblog/insert-batch-of-data-using-ballerina-4c1a7d72c35e)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2018-06-09|
-|  Blog | [Talking to a database with Ballerina](https://medium.com/@Manuri/talking-to-a-database-with-ballerina-f551e0a3fe77)  | [Manuri Amaya Perera](https://medium.com/@Manuri)  |2018-04-30|
+|  Blog | [Talking to a database with Ballerina](https://medium.com/@Manuri/talking-to-a-database-with-ballerina-f551e0a3fe77)  | [Manuri Perera](https://medium.com/@Manuri)  |2018-04-30|
 |  Blog | [Ballerina JDBC Client — Performing DB Operations](https://medium.com/ballerina-techblog/ballerina-sql-connector-performing-db-operations-8e555e3688be)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2017-12-02|
 |  Blog | [Ballerina JDBC Client— Connecting to DB](https://medium.com/ballerina-techblog/ballerina-sql-connector-connecting-to-db-ee31a81c8df6)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2017-11-26|
 |  Blog | [Data Integration with Ballerina](https://medium.com/ballerina-techblog/data-integration-with-ballerina-c5bcf6de49b3)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2017-11-25|
@@ -357,6 +363,11 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |  Blog | [Building a Simple Review Filtering System Using Ballerina Kafka](https://medium.com/ballerina-techblog/building-a-simple-review-filtering-system-using-ballerina-kafka-42cee518ecef) | [Thisaru Guruge](https://medium.com/@thisaru)  |2019-02-12|
 |  Blog | [Getting Started with Ballerina Kafka](https://medium.com/ballerina-techblog/get-along-with-ballerina-kafka-754c28de685c)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2019-02-05|
 
+### Time
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [A guide for Date/Time conversion in Ballerina Language](https://stackoverflow.com/collectives/wso2/articles/73277351/a-guide-for-date-time-conversion-in-ballerina-language)  | [sahanhe](https://stackoverflow.com/users/6795551/sahanhe)  |2022-08-08|
 
 ### Cache
 
@@ -375,6 +386,18 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina SOAP Connector](https://bhashineen.medium.com/ballerina-soap-connector-3974b6efaf2b)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019-04-17 |
+
+### Encoding/Decoding
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [Different Types of Encoding/Decoding with Ballerina](https://stackoverflow.com/collectives/wso2/articles/73147933/different-types-of-encoding-decoding-with-ballerina)  | [Chanaka Lakmal](https://stackoverflow.com/users/4314651/ldclakmal)  |2022-07-28 |
+
+### CSV I/O
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [Upload CSV files to Ballerina Service](https://stackoverflow.com/collectives/wso2/articles/73574768/upload-csv-files-to-ballerina-service)  | [Anupama Pathirage](https://stackoverflow.com/users/1308004/anupama-pathirage)  |2022-09-01 |
 
 ## Security
 
@@ -429,6 +452,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Secure a Ballerina REST API with OpenID Connect using Asgardeo-Part 2](https://stackoverflow.com/collectives/wso2/articles/73748619/secure-a-ballerina-rest-api-with-openid-connect-using-asgardeo-part-2)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-09-16|
+|  SO | [Secure a Ballerina REST API with OpenID Connect using Asgardeo-Part 1](https://stackoverflow.com/collectives/wso2/articles/73300996/secure-a-ballerina-rest-api-with-openid-connect-using-asgardeo-part-1)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-08-10|
 |  DZone | [Building a Secure REST API with OpenID Connect](https://dzone.com/articles/building-a-secure-rest-api-with-openid-connect)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-07-14|
 
 ### Taint Checking (Deprecated)
@@ -469,6 +494,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Building Azure Functions Project With Ballerina](https://stackoverflow.com/collectives/wso2/articles/74323311/building-azure-functions-project-with-ballerina)  | [Anjana Supun](https://stackoverflow.com/users/7980815/anjana-supun)  |2022-11-04|
 |  Blog | [Practical Serverless: A Scalable OCR Solution in 10 Minutes](https://medium.com/ballerina-techblog/practical-serverless-a-scalable-ocr-solution-in-10-minutes-af9f88c6b008)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020-08-03|
 |  Blog | [Introduction to Azure Functions in Ballerina](https://medium.com/ballerina-techblog/introduction-to-azure-functions-in-ballerina-ffc774eae034) | [Anjana Fernando](https://medium.com/@lafernando)  |2020-07-23|
 |  Video | [Ballerina Azure Functions Walk-through](https://youtu.be/mCJ_o-Sdd9U)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020-07-23 |
@@ -656,6 +682,10 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Document Your GitHub Repo Changes to Google Sheets Using Ballerina](https://stackoverflow.com/collectives/wso2/articles/74021013/document-your-github-repo-changes-to-google-sheets-using-ballerina)  | [Tharushi J](https://stackoverflow.com/users/7866464/tharushi-jayasekara)  |2022-10-10|
+|  SO | [Server for moving object monitoring system in Ballerina - Part 3](https://stackoverflow.com/collectives/wso2/articles/74173754/server-for-moving-object-monitoring-system-in-ballerina-part-3)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-10-23|
+|  SO | [Server for moving object monitoring system in Ballerina - Part 2](https://stackoverflow.com/collectives/wso2/articles/73808623/server-for-moving-object-monitoring-system-in-ballerina-part-2)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-09-22|
+|  SO | [Server for moving object monitoring system in Ballerina - Part 1](https://stackoverflow.com/collectives/wso2/articles/73564233/server-for-moving-object-monitoring-system-in-ballerina-part-1)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-09-01|
 |  Blog | [Get Daily Exchange Rates via SMS Using Ballerina](https://medium.com/better-programming/get-daily-exchange-rates-via-sms-using-ballerina-6cfb577633c9)  | [Malintha Ranasinghe](https://medium.com/@malintha1996)  |2022-08-25|
 |  Blog | [Overview of manipulating data in Ballerina with different APIs (PayPal API and randomuser.me)](https://medium.com/ballerina-techblog/overview-of-manipulating-data-in-ballerina-with-different-apis-paypal-api-and-randomuser-me-720828919fab) | [Dulaj Dilshan](https://medium.com/@dulajdilshan)  |2022-08-16|
 |  Blog | [Extract data from a mail and upload it to a Google Spreadsheet using Ballerina Integrator](https://medium.com/@aquib_49146/extract-data-from-a-mail-and-upload-it-to-a-google-spreadsheet-using-ballerina-integrator-82e6e23ea2fb)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2020-01-02|
