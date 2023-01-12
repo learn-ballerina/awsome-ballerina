@@ -265,6 +265,7 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Implementing a REST API with Ballerina](https://stackoverflow.com/collectives/wso2/articles/74862982/implementing-a-rest-api-with-ballerina)  | [shazni nazeer](https://stackoverflow.com/users/2782646/extremum)  |2022-12-20|
 |  Video | [Changes in the HTTP Package in Ballerina Swan Lake](https://www.youtube.com/watch?v=l5KWZwHZdSA&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=7)  |   |2021-07-27|
 |  Blog | [Single Liner Payload Read…](https://medium.com/ballerina-techblog/single-liner-payload-read-85a16e3265fc)  | [Chamil Elladeniya](https://medium.com/@chamilelle)  |2021-06-06|
 |  Blog | [HTTP Deep-Dive with Ballerina: Services](https://medium.com/ballerina-techblog/http-deep-dive-with-ballerina-services-7a6e69af2fbb)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021-01-28|
@@ -352,7 +353,8 @@ A list of awesome Ballerina resources. Once you have an overview of the language
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
-|  SO | [Avoiding SQL Injection in Ballerina](hhttps://stackoverflow.com/collectives/wso2/articles/74602985/avoiding-sql-injection-in-ballerina)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-08| 
+|  SO | [Guidelines and best practices for Ballerina SQL client usages](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-18|
+|  SO | [Avoiding SQL Injection in Ballerina](https://stackoverflow.com/collectives/wso2/articles/74602985/avoiding-sql-injection-in-ballerina)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-08| 
 |  SO | [Interacting with a RDBMS using Ballerina](https://stackoverflow.com/collectives/wso2/articles/73795707/interacting-with-a-rdbms-using-ballerina)  | [Extremum](https://stackoverflow.com/users/2782646/extremum)  |2022-09-21|
 |  SO | [Create a Data API with Ballerina and H2](https://stackoverflow.com/collectives/wso2/articles/72986543/create-a-data-api-with-ballerina-and-h2)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-07-17|
 |  Blog | [Interacting with a RDBMS using Ballerina](https://mshazninazeer.medium.com/interacting-with-a-rdbms-using-ballerina-63edd89f79f6)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-09-21|
