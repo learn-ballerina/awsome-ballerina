@@ -128,7 +128,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
-|  SO | [Efficient Joins with Ballerina Query Expressions](https://stackoverflow.com/collectives/wso2/articles/76089431/errors-and-error-handling-in-ballerina-part-i)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2023-04-24|
+|  SO | [Errors and Error Handling in Ballerina - Part I](https://stackoverflow.com/collectives/wso2/articles/76089431/errors-and-error-handling-in-ballerina-part-i)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2023-04-24|
 |  Blog | [[Ballerina] Error Handling — Part II](https://medium.com/ballerina-techblog/ballerina-error-handling-part-ii-159fbe74c146)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-12-24|
 |  Blog | [[Ballerina] Error Handling — Part I](https://medium.com/ballerina-techblog/ballerina-error-handling-part-i-d581f65c0f8d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-28  |
 
