@@ -95,6 +95,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Medium | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
 |  InfoWorld | [Ballerina: A programming language for the cloud](https://www.infoworld.com/article/3688921/ballerina-a-programming-language-for-the-cloud.html)  | [Martin Heller](https://www.infoworld.com/author/Martin-Heller/)  |2023-03-08|
 |  Podcast | [Simplifying Cloud Native Application Development with Ballerina](https://thenewstack.io/simplifying-cloud-native-application-development-with-ballerina/)  | [Eric Newcomer](https://www.linkedin.com/in/enewcomer/)  |2022-07-01|
 |  Blog | [Seven reasons to try out Ballerina](https://medium.com/ballerina-techblog/seven-reasons-to-try-out-ballerina-f3934c4c53f0)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-06-28|
@@ -127,6 +128,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Efficient Joins with Ballerina Query Expressions](https://stackoverflow.com/collectives/wso2/articles/76089431/errors-and-error-handling-in-ballerina-part-i)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2023-04-24|
 |  Blog | [[Ballerina] Error Handling — Part II](https://medium.com/ballerina-techblog/ballerina-error-handling-part-ii-159fbe74c146)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-12-24|
 |  Blog | [[Ballerina] Error Handling — Part I](https://medium.com/ballerina-techblog/ballerina-error-handling-part-i-d581f65c0f8d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-28  |
 
@@ -291,6 +293,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [An Intro to GraphQL Federation with Ballerina GraphQL](https://stackoverflow.com/collectives/wso2/articles/76044330/an-intro-to-graphql-federation-with-ballerina-graphql)  | [Mohamed Sabthar](https://stackoverflow.com/users/10354450/mohamed-sabthar)  |2023-04-24|
 |  Blog | [GraphQL Subscriptions with Apache Kafka in Ballerina](https://medium.com/ballerina-techblog/graphql-subscriptions-with-apache-kafka-in-ballerina-b3c296d333cd)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2023-02-06|
 |  Blog | [GraphQL Subscriptions with Ballerina: A Step-By-Step Guide](https://medium.com/ballerina-techblog/graphql-subscriptions-with-ballerina-a-step-by-step-guide-5a75e3a12813)  | [Nuvindu Dias](https://medium.com/@nuvidu-18)  |2022-09-30|
 |  Blog | [Using GraphQL and Ballerina with Multiple Data Sources](https://www.infoq.com/articles/graphql-ballerina/)  | [Anupama Pathirage](https://www.infoq.com/profile/Anupama-Pathirage/)  |2022-07-01|
@@ -303,6 +306,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Implementing a Websocket Server using Ballerina](https://mshazninazeer.medium.com/implementing-a-websocket-server-using-ballerina-294e8b60d9fd)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2023-05-04|
 |  Blog | [Ballerina WebSocket Service — The Anatomy](https://medium.com/ballerina-techblog/understanding-ballerina-websocket-service-4babb128f9a5)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2022-05-24 |
 |  Blog | [Real-Time Stock Data Updates with WebSockets using Ballerina](https://medium.com/ballerina-techblog/real-time-stock-data-updates-with-websockets-using-ballerina-7ecb2d4dcfa9) | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021-11-26 |
 |  Blog | [Go Real-Time with Ballerina WebSockets](https://medium.com/ballerina-techblog/go-real-time-with-ballerina-websockets-58c40ac11d6)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021-07-28 |
@@ -734,6 +738,7 @@ This is grouped by different technical areas and ordered by the time.
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [Document Your GitHub Repo Changes to Google Sheets Using Ballerina](https://stackoverflow.com/collectives/wso2/articles/74021013/document-your-github-repo-changes-to-google-sheets-using-ballerina)  | [Tharushi J](https://stackoverflow.com/users/7866464/tharushi-jayasekara)  |2022-10-10|
+|  SO | [Server for moving object monitoring system in Ballerina - Final part](https://stackoverflow.com/collectives/wso2/articles/75703707/server-for-moving-object-monitoring-system-in-ballerina-final-part)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2023-03-11|
 |  SO | [Server for moving object monitoring system in Ballerina - Part 3](https://stackoverflow.com/collectives/wso2/articles/74173754/server-for-moving-object-monitoring-system-in-ballerina-part-3)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-10-23|
 |  SO | [Server for moving object monitoring system in Ballerina - Part 2](https://stackoverflow.com/collectives/wso2/articles/73808623/server-for-moving-object-monitoring-system-in-ballerina-part-2)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-09-22|
 |  SO | [Server for moving object monitoring system in Ballerina - Part 1](https://stackoverflow.com/collectives/wso2/articles/73564233/server-for-moving-object-monitoring-system-in-ballerina-part-1)  | [Kavindu Zoysa](https://stackoverflow.com/users/10721779/kavindu-gimhan-zoysa)  |2022-09-01|
