@@ -6,92 +6,94 @@ This is grouped by different technical areas and ordered by the time.
 > Note: Since the language syntax has changed over the time, some resources may contain invalid code/details. 
 
 - [Awsome Ballerina](#awsome-ballerina)
-  - [General](#general)
-  - [Language Concepts](#language-concepts)
-    - [General Language](#general-language)
-      - [Error handling](#error-handling)
-      - [JSON](#json)
-      - [XML](#xml)
-      - [Immutability](#immutability)
-      - [Binding Patterns](#binding-patterns)
-      - [Functions](#functions)
-      - [Type conversions](#type-conversions)
-      - [Language integrated queries](#language-integrated-queries)
-      - [Services and Listners](#services-and-listners)
-      - [Other Data types](#other-data-types)
-      - [Statements](#statements)
-    - [Data structures and algorithms](#data-structures-and-algorithms)
-    - [Compiler](#compiler)
-    - [Concurrency](#concurrency)
-    - [Java interoperability](#java-interoperability)
-    - [Transactions](#transactions)
-    - [Streams](#streams)
-    - [Workflows](#workflows)
-  - [Standard and Extended library](#standard-and-extended-library)
-    - [HTTP](#http)
-    - [HTTP2](#http2)
-    - [GraphQL](#graphql)
-    - [WebSocket](#websocket)
-    - [Pub/Sub](#pubsub)
-    - [SerDes](#serdes)
-    - [Email](#email)
-    - [File](#file)
-    - [Websub and webhooks](#websub-and-webhooks)
-    - [gRPC](#grpc)
-    - [Database](#database)
-    - [Kafka](#kafka)
-    - [Time](#time)
-    - [Cache](#cache)
-    - [FTP](#ftp)
-    - [SOAP](#soap)
-    - [Encoding/Decoding](#encodingdecoding)
-    - [CSV I/O](#csv-io)
-  - [Security](#security)
-    - [Ballerina security overview](#ballerina-security-overview)
-    - [Microservices Security](#microservices-security)
-    - [OAuth](#oauth)
-    - [OAuth2](#oauth2)
-    - [JWT](#jwt)
-    - [OSCP](#oscp)
-    - [TLS/SSL](#tlsssl)
-    - [OpenID](#openid)
-    - [Taint Checking (Deprecated)](#taint-checking-deprecated)
-  - [Cloud](#cloud)
-    - [Kubernetes/C2C](#kubernetesc2c)
-    - [AWS Step Functions](#aws-step-functions)
-    - [AWS Lambda](#aws-lambda)
-    - [Azure functions](#azure-functions)
-    - [Azure services](#azure-services)
-    - [OpenShift](#openshift)
-  - [Observability](#observability)
-  - [Tooling](#tooling)
-    - [OpenAPI](#openapi)
-    - [AsyncAPI](#asyncapi)
-    - [Ballerina CLI tool](#ballerina-cli-tool)
-    - [SemVer validator](#semver-validator)
-    - [Strand dump tool](#strand-dump-tool)
-    - [Ballerina shell](#ballerina-shell)
-    - [Debugger](#debugger)
-    - [Homebrew](#homebrew)
-  - [Editor](#editor)
-    - [VS Code](#vs-code)
-    - [Language Server](#language-server)
-    - [IntelliJIDEA](#intellijidea)
-    - [Composer (Deprecated)](#composer-deprecated)
-  - [Testing](#testing)
-  - [Logging](#logging)
-  - [Configuration management](#configuration-management)
-  - [Package management](#package-management)
-  - [Building and installing Ballerina](#building-and-installing-ballerina)
-  - [Ballerina Connectors](#ballerina-connectors)
-  - [CI/CD](#cicd)
-  - [Comparisons with other languages](#comparisons-with-other-languages)
-  - [Usecases](#usecases)
-  - [User stories](#user-stories)
-  - [Integration and design Patterns](#integration-and-design-patterns)
+  - [Content (Articles/Blogs/Videos)](#content-articlesblogsvideos)
+    - [General](#general)
+    - [Language Concepts](#language-concepts)
+      - [General Language](#general-language)
+        - [Error handling](#error-handling)
+        - [JSON](#json)
+        - [XML](#xml)
+        - [Immutability](#immutability)
+        - [Binding Patterns](#binding-patterns)
+        - [Functions](#functions)
+        - [Type conversions](#type-conversions)
+        - [Language integrated queries](#language-integrated-queries)
+        - [Services and Listners](#services-and-listners)
+        - [Other Data types](#other-data-types)
+        - [Statements](#statements)
+      - [Data structures and algorithms](#data-structures-and-algorithms)
+      - [Compiler](#compiler)
+      - [Concurrency](#concurrency)
+      - [Java interoperability](#java-interoperability)
+      - [Transactions](#transactions)
+      - [Streams](#streams)
+      - [Workflows](#workflows)
+    - [Standard and Extended library](#standard-and-extended-library)
+      - [HTTP](#http)
+      - [HTTP2](#http2)
+      - [GraphQL](#graphql)
+      - [WebSocket](#websocket)
+      - [Pub/Sub](#pubsub)
+      - [SerDes](#serdes)
+      - [Email](#email)
+      - [File](#file)
+      - [Websub and webhooks](#websub-and-webhooks)
+      - [gRPC](#grpc)
+      - [Database](#database)
+      - [Kafka](#kafka)
+      - [Time](#time)
+      - [Cache](#cache)
+      - [FTP](#ftp)
+      - [SOAP](#soap)
+      - [Encoding/Decoding](#encodingdecoding)
+      - [CSV I/O](#csv-io)
+    - [Security](#security)
+      - [Ballerina security overview](#ballerina-security-overview)
+      - [Microservices Security](#microservices-security)
+      - [OAuth](#oauth)
+      - [OAuth2](#oauth2)
+      - [JWT](#jwt)
+      - [OSCP](#oscp)
+      - [TLS/SSL](#tlsssl)
+      - [OpenID](#openid)
+      - [Taint Checking (Deprecated)](#taint-checking-deprecated)
+    - [Cloud](#cloud)
+      - [Kubernetes/C2C](#kubernetesc2c)
+      - [AWS Step Functions](#aws-step-functions)
+      - [AWS Lambda](#aws-lambda)
+      - [Azure functions](#azure-functions)
+      - [Azure services](#azure-services)
+      - [OpenShift](#openshift)
+    - [Observability](#observability)
+    - [Tooling](#tooling)
+      - [OpenAPI](#openapi)
+      - [AsyncAPI](#asyncapi)
+      - [Ballerina CLI tool](#ballerina-cli-tool)
+      - [SemVer validator](#semver-validator)
+      - [Strand dump tool](#strand-dump-tool)
+      - [Ballerina shell](#ballerina-shell)
+      - [Debugger](#debugger)
+      - [Homebrew](#homebrew)
+    - [Editor](#editor)
+      - [VS Code](#vs-code)
+      - [Language Server](#language-server)
+      - [IntelliJIDEA](#intellijidea)
+      - [Composer (Deprecated)](#composer-deprecated)
+    - [Testing](#testing)
+    - [Logging](#logging)
+    - [Configuration management](#configuration-management)
+    - [Package management](#package-management)
+    - [Building and installing Ballerina](#building-and-installing-ballerina)
+    - [Ballerina Connectors](#ballerina-connectors)
+    - [CI/CD](#cicd)
+    - [Comparisons with other languages](#comparisons-with-other-languages)
+    - [Usecases](#usecases)
+    - [User stories](#user-stories)
+    - [Integration and design Patterns](#integration-and-design-patterns)
+  - [Ballerina projects](#ballerina-projects)
 
-
-## General
+## Content (Articles/Blogs/Videos)
+### General
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -120,11 +122,11 @@ This is grouped by different technical areas and ordered by the time.
 |  DZone | [Making Integration Great Again](https://dzone.com/articles/how-to-make-integration-great-again)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017-02-22|
 
 
-## Language Concepts
+### Language Concepts
 
-### General Language
+#### General Language
 
-#### Error handling
+##### Error handling
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -132,7 +134,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [[Ballerina] Error Handling — Part II](https://medium.com/ballerina-techblog/ballerina-error-handling-part-ii-159fbe74c146)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-12-24|
 |  Blog | [[Ballerina] Error Handling — Part I](https://medium.com/ballerina-techblog/ballerina-error-handling-part-i-d581f65c0f8d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-28  |
 
-#### JSON
+##### JSON
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -141,27 +143,27 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [[Ballerina] Converting CSV to JSON](https://medium.com/ballerina-techblog/ballerina-converting-csv-to-json-22954918731)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-25  |
 |  Blog | [Ballerina’s JSON type and lax static typing](https://medium.com/ballerina-techblog/ballerinas-json-type-and-lax-static-typing-3b952f6add01)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-13  |
 
-#### XML
+##### XML
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [XML Processing Made Easy with Ballerina](https://dzone.com/articles/xml-processing-made-easy-with-ballerina)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-10-26|
 
-#### Immutability 
+##### Immutability 
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Immutability in Ballerina — Part I](https://medium.com/ballerina-techblog/immutability-in-ballerina-part-i-e6c607ced627)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2021-09-26|
 |  Blog | [Immutable Values in Ballerina](https://medium.com/ballerina-techblog/immutable-values-in-ballerina-99f7f6232c72)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-12-13|
 
-#### Binding Patterns
+##### Binding Patterns
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Using Binding Patterns in Ballerina](https://dzone.com/articles/utilising-binding-patterns-in-ballerina)  | [Suleka Helmini](https://dzone.com/users/3667460/suleka96.html)  |2021-10-20|
 |  DZone | [Binding Patterns in Ballerina](https://dzone.com/articles/binding-patterns-in-ballerina)  | [Suleka Helmini](https://dzone.com/users/3667460/suleka96.html)  |2021-10-19|
 
-#### Functions
+##### Functions
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -170,14 +172,14 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Changing the “main” function](https://medium.com/ballerina-techblog/changing-the-main-function-4f60b319b6e4)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-10-04|
 
 
-#### Type conversions
+##### Type conversions
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [[Ballerina] Casting and Conversions — Part II — Stamping, Cloning and Converting](https://medium.com/ballerina-techblog/ballerina-casting-and-conversions-part-ii-stamping-cloning-and-converting-785e2ac167aa)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-12-11|
 |  Blog | [[Ballerina] Casting and Conversions — Part I](https://maryamzi.medium.com/ballerina-casting-and-conversions-part-i-678792616cac)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-12-11|
 
-#### Language integrated queries
+##### Language integrated queries
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -187,14 +189,14 @@ This is grouped by different technical areas and ordered by the time.
 |  Video | [Using Language Integrated Queries](https://www.youtube.com/watch?v=81XCTewSo8I&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=5)  |   |2021-09-28|
 |  DZone | [Language Integrated Queries In Ballerina](https://dzone.com/articles/language-integrated-queries-in-ballerina)  | [Mohanadarshan Vivekanandalingam](https://dzone.com/users/4448705/mohanadarshan.html)  |2020-10-16|
 
-#### Services and Listners
+##### Services and Listners
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [[Attaching multiple services to the same listener in Ballerina](https://stackoverflow.com/collectives/wso2/articles/73277198/attaching-multiple-services-to-the-same-listener-in-ballerina)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2022-08-09|
 |  Video | [Services and Network Communication](https://www.youtube.com/watch?v=hKBjatIFxyw&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=10)  |   |2021-02-03|
 
-#### Other Data types
+##### Other Data types
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -206,13 +208,13 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Coding in meaningful way(Identifier literal support in ballerina ).](https://medium.com/@lanka.vitharana/identifier-literals-in-ballerina-makes-it-possible-to-have-spaces-in-identifiers-83336ecb693e)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017-05-14  |
 |  Blog | [Any type support in ballerina](https://medium.com/ballerina-techblog/any-type-support-in-ballerina-d9651ac53695)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017-05-04  |
 
-#### Statements
+##### Statements
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Control Structures in Ballerina](https://ayesh9303.medium.com/control-structures-in-ballerina-d13c288fe301)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021-01-04|
 
-### Data structures and algorithms
+#### Data structures and algorithms
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -221,13 +223,13 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Basic Algorithms using Ballerina](https://medium.com/ballerina-techblog/basic-algorithms-using-ballerina-908fe8d320a5)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-02-20|
 |  Blog | [Parallel Merge Sort with Ballerina](https://medium.com/ballerina-techblog/parallel-merge-sort-with-ballerina-fe6f419a308c)  | [Kishanthan Thangarajah](https://medium.com/@kishanthan)  |2018-11-11|
 
-### Compiler
+#### Compiler
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina Compilation Process](https://medium.com/ballerina-techblog/ballerina-compilation-process-aba37aa05374)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019-12-17  |
 
-### Concurrency
+#### Concurrency
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -241,34 +243,34 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [A Glimpse Inside Workers In Ballerina](https://medium.com/ballerina-techblog/a-glimpse-of-workers-in-ballerina-b30e32b41fa)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-12-25|
 |  Blog | [Ballerina Channels](https://medium.com/ballerina-techblog/ballerina-channels-af4908538411)  | [Vinod Kavinda](https://medium.com/@vinok88)  |2018-10-09  |
 
-### Java interoperability
+#### Java interoperability
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Video | [Java Interoperability in Ballerina](https://www.youtube.com/watch?v=4EINEJAtAg4&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=12)  |   |2020-12-08|
 |  Blog | [Ballerina Interop and all you need to know](https://medium.com/@lanka.vitharana/ballerina-interop-and-all-you-need-to-know-81eef0931120)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019-12-10  |
 
-### Transactions
+#### Transactions
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Practical Transaction Handling in Microservice Architecture](https://dzone.com/articles/practical-transaction-handling-in-microservice-arc)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-12-01|
 
-### Streams
+#### Streams
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Lets write a window in Ballerina](https://medium.com/ballerina-techblog/lets-write-a-window-in-ballerina-2bfa40cfb7fc)  | [Gimantha Bandara](https://medium.com/@gimanthabandara)  |2019-03-11|
 |  Blog | [Writing Ballerina Streaming Extensions](https://medium.com/ballerina-techblog/writing-ballerina-streaming-extensions-304c9f815861)  | [Grainier Perera](https://medium.com/@grainier)  |2019-03-11|
 
-### Workflows
+#### Workflows
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Simple Long Running Workflows with Ballerina](https://lafernando.medium.com/simple-long-running-workflows-with-ballerina-e3617631b81c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018-10-08|
 
-## Standard and Extended library 
+### Standard and Extended library 
 
-### HTTP
+#### HTTP
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -283,13 +285,13 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Intercepting HTTP requests in Ballerina](https://medium.com/ballerina-techblog/intercepting-http-requests-in-ballerina-aaa37beee1c)  | [Vinod Kavinda](https://medium.com/@vinok88)  |2018-11-13  |
 |  Blog | [HTTP Caching in Ballerina - Part I](https://medium.com/@pubuduf/http-caching-in-ballerina-part-i-d2446ceb7db2)  | [Pubudu Fernando](https://medium.com/@pubuduf)  |2018-11-13  |
 
-### HTTP2
+#### HTTP2
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [How to play with HTTP/2 in Ballerina](https://medium.com/ballerina-techblog/how-to-work-with-http-2-in-ballerina-6bdbafb100c1)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2018-08-01  |
 
-### GraphQL
+#### GraphQL
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -302,7 +304,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Introduction to GraphQL with Ballerina](https://medium.com/ballerina-techblog/graphql-made-easy-with-ballerina-5ca04d9536d0)  | [Anjana Fernando](https://medium.com/@lafernando)  |2021-02-09|
 
 
-### WebSocket
+#### WebSocket
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -314,33 +316,33 @@ This is grouped by different technical areas and ordered by the time.
 |  Video | [How to use WebSocket with Ballerina](https://youtu.be/UT51LC-bKgs)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020-11-05 |
 
 
-### Pub/Sub
+#### Pub/Sub
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [An Introduction to Pub/Sub in Ballerina](https://medium.com/ballerina-techblog/an-introduction-to-pub-sub-in-ballerina-e259b38307fb)  | [Nuvindu Dias](https://medium.com/@nuvidu-18)  |2022-09-30|
 
 
-### SerDes
+#### SerDes
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Serialization and Deserialization with Ballerina SerDes module](https://medium.com/ballerina-techblog/serialization-and-deserialization-with-ballerina-serdes-module-b05e1e44d9f2) | [Mohomed Sabthar](https://medium.com/@sabthar)  |2022-08-16|
 
-### Email
+#### Email
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Sending Emails with Ballerina](https://medium.com/ballerina-techblog/sending-emails-with-ballerina-191f8edeade8)  | [Shammi Kolonne](https://shammi0107.medium.com/)  |2022-08-16|
 
-### File
+#### File
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [How to download a large file using Ballerina](https://medium.com/@anupama.pathirage/how-to-download-a-large-file-using-ballerina-ec735309cb)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2022-06-22|
 |  Blog | [How to download a file from URL using Ballerina](https://medium.com/@anupama.pathirage/how-to-download-a-file-from-url-using-ballerina-adca85735d55)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2022-06-20|
 
-### Websub and webhooks
+#### Websub and webhooks
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -353,7 +355,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [[Ballerina] Registering a GitHub Webhook](https://medium.com/ballerina-techblog/ballerina-registering-a-github-webhook-1bd7a75cb32d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-08-12 |
 |  Blog | [[Ballerina] Event Notification via Webhooks](https://medium.com/ballerina-techblog/ballerina-event-notification-via-webhooks-bc7cc63f4b6e)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2018-07-21|
 
-### gRPC
+#### gRPC
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -363,7 +365,7 @@ This is grouped by different technical areas and ordered by the time.
 |  DZone | [gRPC Basics: Why, When, and How?](https://dzone.com/articles/grpc-basics-why-when-and-how)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-07-24|
 |  Blog | [Ballerina + gRPC](https://medium.com/ballerina-techblog/ballerina-grpc-9ee601c0968d)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2020-04-07|
 
-### Database
+#### Database
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -394,7 +396,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Ballerina JDBC Client— Connecting to DB](https://medium.com/ballerina-techblog/ballerina-sql-connector-connecting-to-db-ee31a81c8df6)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2017-11-26|
 |  Blog | [Data Integration with Ballerina](https://medium.com/ballerina-techblog/data-integration-with-ballerina-c5bcf6de49b3)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2017-11-25|
 
-### Kafka
+#### Kafka
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -402,51 +404,51 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Building a Simple Review Filtering System Using Ballerina Kafka](https://medium.com/ballerina-techblog/building-a-simple-review-filtering-system-using-ballerina-kafka-42cee518ecef) | [Thisaru Guruge](https://medium.com/@thisaru)  |2019-02-12|
 |  Blog | [Getting Started with Ballerina Kafka](https://medium.com/ballerina-techblog/get-along-with-ballerina-kafka-754c28de685c)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2019-02-05|
 
-### Time
+#### Time
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [A guide for Date/Time conversion in Ballerina Language](https://stackoverflow.com/collectives/wso2/articles/73277351/a-guide-for-date-time-conversion-in-ballerina-language)  | [sahanhe](https://stackoverflow.com/users/6795551/sahanhe)  |2022-08-08|
 
-### Cache
+#### Cache
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Redesigning of Ballerina Cache](https://medium.com/ballerina-techblog/redesigning-of-ballerina-cache-a2cf59b0fee1)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2020-06-27|
 
-### FTP
+#### FTP
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina FTP client](https://bhashineen.medium.com/ballerina-ftp-client-1226a48f0b71)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2021-07-14 |
 
-### SOAP
+#### SOAP
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina SOAP Connector](https://bhashineen.medium.com/ballerina-soap-connector-3974b6efaf2b)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019-04-17 |
 
-### Encoding/Decoding
+#### Encoding/Decoding
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [Different Types of Encoding/Decoding with Ballerina](https://stackoverflow.com/collectives/wso2/articles/73147933/different-types-of-encoding-decoding-with-ballerina)  | [Chanaka Lakmal](https://stackoverflow.com/users/4314651/ldclakmal)  |2022-07-28 |
 
-### CSV I/O
+#### CSV I/O
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [Upload CSV files to Ballerina Service](https://stackoverflow.com/collectives/wso2/articles/73574768/upload-csv-files-to-ballerina-service)  | [Anupama Pathirage](https://stackoverflow.com/users/1308004/anupama-pathirage)  |2022-09-01 |
 
-## Security
+### Security
 
-### Ballerina security overview
+#### Ballerina security overview
 
 |Type   | Title  |Author  |
 |---|---|---|
 |  Website | [Ballerina security](https://ldclakmal.me/ballerina-security/)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |
 
-### Microservices Security
+#### Microservices Security
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -454,32 +456,32 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Microservices Security with Ballerina](https://medium.com/ballerina-techblog/microservices-security-with-ballerina-e9d430f05373)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2021-08-02|
 |  Blog | [Securely invoking a Client Endpoint in Ballerina](https://medium.com/ballerina-techblog/microservices-security-with-ballerina-e9d430f05373)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2018-05-21|
 
-### OAuth
+#### OAuth
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Authenticate A Shopify App Using OAuth — The Ballerina Way](https://medium.com/ballerina-techblog/authenticate-a-shopify-app-using-oauth-the-ballerina-way-f827ab99f576)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2020-06-02|
 
-### OAuth2
+#### OAuth2
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Securing Microservices with OAuth2](https://medium.com/ballerina-techblog/securing-microservices-with-oauth2-475a72bd5ddd)  | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2022-02-28|
 
-### JWT
+#### JWT
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Securing Microservices with JWT](https://medium.com/ballerina-techblog/securing-microservices-with-jwt-a16b738b110f) | [Chanaka Lakmal](https://medium.com/@ldclakmal)  |2021-10-21|
 
-### OSCP
+#### OSCP
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [CRL, OCSP and OCSP stapling validation with Ballerina](https://bhashineen.medium.com/crl-ocsp-and-ocsp-stapling-validation-with-ballerina-31f8b58fd5cf)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018-09-15 |
 |  Blog | [[Ballerina] Enable OCSP stapling in Ballerina](https://bhashineen.medium.com/ballerina-enable-ocsp-stapling-in-ballerina-3cb404b8c415)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2018-08-13 |
 
-### TLS/SSL
+#### TLS/SSL
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -487,7 +489,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Configure Ciphers and SSL protocols in Ballerina](https://bhashineen.medium.com/configure-ciphers-and-ssl-protocols-in-ballerina-51053004fff)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017-10-30 |
 |  Blog | [SSL Mutual Authentication with Ballerina](https://bhashineen.medium.com/ssl-mutual-authentication-with-ballerina-653aa50f15f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017-10-28 |
 
-### OpenID
+#### OpenID
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -495,14 +497,14 @@ This is grouped by different technical areas and ordered by the time.
 |  SO | [Secure a Ballerina REST API with OpenID Connect using Asgardeo-Part 1](https://stackoverflow.com/collectives/wso2/articles/73300996/secure-a-ballerina-rest-api-with-openid-connect-using-asgardeo-part-1)  | [Dakshitha Ratnayake](https://stackoverflow.com/users/14645116/dakshitha-ratnayake)  |2022-08-10|
 |  DZone | [Building a Secure REST API with OpenID Connect](https://dzone.com/articles/building-a-secure-rest-api-with-openid-connect)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-07-14|
 
-### Taint Checking (Deprecated)
+#### Taint Checking (Deprecated)
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina taint checking guide](https://medium.com/ballerina-techblog/ballerina-taint-checking-guide-553ec9b8f153) | [Dhananjaya Wicramasingha](https://medium.com/@Dhananjaya)  |2019-09-25|
 
-## Cloud
+### Cloud
 
-### Kubernetes/C2C
+#### Kubernetes/C2C
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -513,13 +515,13 @@ This is grouped by different technical areas and ordered by the time.
 |  DZone | [Generate Kubernetes YAML Right From Your App Code](https://dzone.com/articles/yaml-less-kubernetes)  | [Dmitry Sotnikov](https://dzone.com/users/295907/DSotnikov.html)  |2018-07-11|
 |  DZone | [Microservices, Docker, Kubernetes, Serverless, Service Mesh, and Beyond](https://dzone.com/articles/microservices-docker-kubernetes-serverless-service)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2018-05-11|
 
-### AWS Step Functions
+#### AWS Step Functions
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Practical Serverless: Long-Running Workflows with Human Interactions using Step Functions and Ballerina](https://medium.com/ballerina-techblog/practical-serverless-long-running-workflows-with-human-interactions-using-step-functions-and-dd6fbcb42f29)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020-09-27|
 
-### AWS Lambda
+#### AWS Lambda
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -532,7 +534,7 @@ This is grouped by different technical areas and ordered by the time.
 
 
 
-### Azure functions
+#### Azure functions
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -541,29 +543,29 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Introduction to Azure Functions in Ballerina](https://medium.com/ballerina-techblog/introduction-to-azure-functions-in-ballerina-ffc774eae034) | [Anjana Fernando](https://medium.com/@lafernando)  |2020-07-23|
 |  Video | [Ballerina Azure Functions Walk-through](https://youtu.be/mCJ_o-Sdd9U)  | [Anjana Fernando](https://www.youtube.com/@lafernando)  |2020-07-23 |
 
-### Azure services
+#### Azure services
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Production Grade Ballerina Microservices on Azure AKS - Part 2: Continuous Integration With Azure DevOps](https://dzone.com/articles/production-grade-ballerina-microservices-on-azure)  | [Dunith Dhanushka](https://dzone.com/users/540877/dunithd.html)  |2020-09-01|
 |  DZone | [Production-Grade Microservices on Azure AKS With Ballerina — Part 1: The Basics](https://dzone.com/articles/production-grade-microservices-on-azure-aks-with-b)  | [Dunith Dhanushka](https://dzone.com/users/540877/dunithd.html)  |2020-05-28|
 |  Blog | [Ballerina/Azure Cloud Case Study: Scalable Asynchronous Request Processing](https://medium.com/ballerina-techblog/ballerina-azure-cloud-case-study-scalable-asynchronous-request-processing-43d1180e2512)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019-03-06|
 
-### OpenShift
+#### OpenShift
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina Services on OpenShift](https://medium.com/ballerina-techblog/ballerina-services-on-openshift-21f6a7836213)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2019-03-21|
 
-## Observability
+### Observability
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Automated Microservices Observability in the Cloud](https://dzone.com/articles/automated-microservices-observability-in-the-cloud)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2021-10-12|
 |  DZone | [Rethinking Programming: Automated Observability](https://dzone.com/articles/rethinking-programming-automated-observability)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-05-01|
 
-## Tooling
+### Tooling
 
-### OpenAPI
+#### OpenAPI
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -575,32 +577,32 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Super Cool Feature for your Ballerina service from Ballerina OpenAPI tool](https://medium.com/ballerina-techblog/super-cool-feature-for-your-ballerina-service-from-ballerina-openapi-tool-ac2cce9cedfb)  | [Sumudu Nissanka](https://medium.com/@lnash94)  |2021-07-23|
 |  Blog | [Generating a Mock Service for Ballerina](https://medium.com/ballerina-techblog/openapi-to-ballerina-service-9a3d2f9299eb)  | [Imesh Chandrasiri](https://medium.com/@dimal.chandrasiri)  |2019-10-01|
 
-### AsyncAPI
+#### AsyncAPI
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Learn how to use the AsyncAPI contract with cloud-native programming language Ballerina to benefit your API development](https://medium.com/@lnash94/learn-how-to-use-the-asyncapi-contract-with-cloud-native-programming-language-ballerina-to-benefit-5d004f8e5f5e)  | [Sumudu Nissanka](https://medium.com/@lnash94) |2022-07-28|
 
-### Ballerina CLI tool
+#### Ballerina CLI tool
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Developing Ballerina Project With Ballerina CLI Tool](https://dzone.com/articles/developing-ballerina-project-with-ballerina-cli-to)  | [Dhanushka Madushan](https://dzone.com/users/3511875/dhanushkamadushan.html)  |2020-03-11|
 |  Blog | [Ballerina tool for distribution management](https://medium.com/ballerina-techblog/ballerina-tool-for-distribution-management-4dbd638d003a)   | [Tharik Kanaka](https://medium.com/@tharik.kanaka)  |2019-12-25|
 
-### SemVer validator 
+#### SemVer validator 
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Introduction to Ballerina Semantic Versioning Validator](https://medium.com/ballerina-techblog/an-introduction-to-ballerina-semantic-versioning-validator-956d4884b121)   | [Nipuna Ranasinghe](https://medium.com/@nipunaranasinghe)  |2022-09-19|
 
-### Strand dump tool
+#### Strand dump tool
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Troubleshoot Ballerina runtime using the strand dump](https://medium.com/ballerina-techblog/troubleshoot-ballerina-runtime-using-the-strand-dump-12e7322f8071)  | [Nadeeshan Dissanayake](https://medium.com/@dmndkdissanayake)  |2022-10-10|
 
-### Ballerina shell
+#### Ballerina shell
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -608,22 +610,22 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Ballerina Shell REPL — Implementation Overview](https://medium.com/ballerina-techblog/ballerina-shell-repl-implementation-overview-ee7e909da20c)  | [Sunera Avinash](https://medium.com/@kdsuneraavinash)  |2021-03-01|
 |  Blog | [Ballerina Shell — A REPL for Ballerina](https://medium.com/ballerina-techblog/ballerina-shell-a-repl-for-ballerina-d5053c94363f) | [Sunera Avinash](https://medium.com/@kdsuneraavinash)  |2021-02-28|
 
-### Debugger
+#### Debugger
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [A Practical Guide to Ballerina Remote Debugging](https://praveennadarajah.medium.com/a-practical-guide-to-ballerina-remote-debugging-b3f8e2f9309)  | [Praveen Nadarajah](https://praveennadarajah.medium.com/)  |2021-03-31|
 
 
-### Homebrew
+#### Homebrew
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [How we built Ballerina Homebrew Formula](https://medium.com/ballerina-techblog/how-to-create-your-own-homebrew-package-or-formula-8dfbf8e001d3)  | [Rasika Perera](https://medium.com/@rasika90)  |2019-01-06|
 
-## Editor
+### Editor
 
-### VS Code
+#### VS Code
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -635,7 +637,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Setting Up VSCode for Ballerina Development in 60 Seconds](https://medium.com/ballerina-techblog/setting-up-vscode-for-ballerina-development-in-60-seconds-4ee5615cf82b)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-09-07|
 
 
-### Language Server 
+#### Language Server 
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -647,14 +649,14 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Extending Ballerina Language Server — Auto-Completion](https://medium.com/ballerina-techblog/extending-ballerina-language-server-auto-completion-f46a0238d317)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2019-11-17|
 |  Blog | [Language Server for Ballerina— Auto Completion Engine in Depth](https://medium.com/ballerina-techblog/language-server-for-ballerina-auto-completion-engine-in-depth-ee20e543ac26)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-05-07|
 
-### IntelliJIDEA
+#### IntelliJIDEA
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Ballerina Hello World: The IntelliJ Style!](https://nipunaranasinghe.medium.com/ballerina-hello-world-the-intellij-style-23b7c5da29d7)   | [Nipuna Ranasinghe](https://medium.com/@nipunaranasinghe)  |2021-04-12|
 |  Blog | [Setting up Ballerina in IntelliJ IDEA](https://medium.com/ballerina-techblog/setting-up-ballerina-in-intellij-idea-e49e7e150a54)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017-11-14|
 
-### Composer (Deprecated)
+#### Composer (Deprecated)
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -663,27 +665,27 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Ballerina Composer — Flexible, powerful and Smartest ever graphical tool for composing your Ballerina Programs](https://medium.com/@nadeeshaangunasinghe/ballerina-composer-flexible-powerful-and-smartest-ever-graphical-tool-for-composing-your-89fc76e672d4)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2017-02-22|
 
 
-## Testing
+### Testing
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Unit test Ballerina integration with Mock backends](https://medium.com/ballerina-techblog/unit-test-ballerina-integration-with-mock-backends-ffff790edb9f)  | [Aquib Zulfikar](https://medium.com/@aquib_49146)  |2021-08-17|
 |  Blog | [Get started with service testing using Ballerina test framework](https://medium.com/ballerina-techblog/get-started-with-service-testing-using-ballerina-test-framework-18e3b907a33)  | [Fathima Dilhasha](https://medium.com/@dilhasha.nazeer)  |2021-08-17|
 
-## Logging
+### Logging
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  DZone | [Integrating Humio With Ballerina for Microservices Logging](https://dzone.com/articles/integrating-humio-with-ballerina)  | [PJ Hagerty](https://dzone.com/users/2997412/pjhagerty.html)  |2020-02-25|
 
-## Configuration management
+### Configuration management
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Configuration Management in Ballerina](https://medium.com/ballerina-techblog/configuration-management-in-ballerina-b952cae80c49)  | [Pubudu Fernando](https://medium.com/@pubuduf)  |2019-01-01|
 |  Blog | [Making Use of the Ballerina Config API](https://medium.com/@pubuduf/ballerina-config-api-f6a9c455267b)  | [Pubudu Fernando](https://medium.com/@pubuduf)  |2017-11-11|
 
-## Package management
+### Package management
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -692,14 +694,14 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Internals of Module Management in Ballerina](https://medium.com/ballerina-techblog/internals-of-module-management-in-ballerina-8dfaac3b52f1)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-12-23|
 |  Blog | [Cheat Sheet for Ballerina Commands associated with Module Management](https://medium.com/ballerina-techblog/cheat-sheet-for-ballerina-commands-associated-with-module-management-f56555705aff)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-10-21|
 
-## Building and installing Ballerina
+### Building and installing Ballerina
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Building Ballerina from Sources](https://blog.devgenius.io/building-ballerina-from-sources-948d7db4ee5) | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021-05-11|
 |  Blog | [Installing Ballerina: The hard way](https://medium.com/@shan1024/installing-ballerina-the-hard-way-aff571882ebc)  | [Shan Mahanama](https://medium.com/@shan1024)  |2019-09-18|
 
-## Ballerina Connectors
+### Ballerina Connectors
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -708,7 +710,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Ballerina Connectors/Endpoints and What? How? Why?](https://medium.com/ballerina-techblog/ballerina-connectors-endpoints-and-what-how-why-a04d414657f0)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017-11-08  |
 |  Blog | [Plug custom native functions to Ballerina](https://medium.com/ballerina-techblog/plug-custom-native-functions-to-ballerina-5bbc2e15b6ac)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2017-07-02  |
 
-## CI/CD
+### CI/CD
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -716,7 +718,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [CI/CD Cloud Workflows with GitHub Actions and Ballerina](https://medium.com/ballerina-techblog/ci-cd-cloud-workflows-with-github-actions-and-ballerina-5dbda9bcea76)  | [Anjana Fernando](https://medium.com/@lafernando)  |2019-05-09|
 |  DZone | [Effective Microservices CI/CD With GitHub Actions and Ballerina](https://dzone.com/articles/effective-microservices-cicd-with-github-actions-a)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-02-25|
 
-## Comparisons with other languages
+### Comparisons with other languages
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -733,7 +735,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Dockerize services written in Go, SpringBoot & Ballerina — A comparison](https://medium.com/@kishanthan/dockerize-services-written-in-go-vs-springboot-vs-ballerina-a-comparison-5629fcc5658)  | [Kishanthan Thangarajah](https://medium.com/@kishanthan)  |2018-12-14|
 |  DZone | [How Ballerina  Is Different From Other Programming Languages](https://dzone.com/articles/ballerinawhy-it-is-different-from-other-programmin)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017-03-02|
 
-## Usecases
+### Usecases
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -751,7 +753,7 @@ This is grouped by different technical areas and ordered by the time.
 |  InfoQ | [Building an API Gateway with the Ballerina Programming Language](https://www.infoq.com/articles/ballerina-api-gateway/)  | [Nuwan Dias](https://www.infoq.com/profile/Nuwan-Dias/)  |2018-07-18|
 |  Blog | [Tweet my Stars, Ballerina!](https://medium.com/@maryamzi/tweet-my-stars-ballerina-3a9652226116)  | [Shan Mahanama](https://medium.com/@shan1024)  |2017-10-23|
 
-## User stories
+### User stories
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -759,7 +761,7 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Build Employee Onboarding Automation With WSO2 Ballerina & Choreo](https://techventuras.com/tech_blogs/build-employee-onboarding-automation-with-wso2-ballerina-and-choreo/)  | Sudaraka Jayashanka |2022-11-01|
 
 
-## Integration and design Patterns
+### Integration and design Patterns
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
@@ -769,4 +771,11 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Clone and Aggregate Integration Pattern with Ballerina](https://medium.com/ballerina-techblog/clone-and-aggregate-integration-pattern-with-ballerina-bdcd537b683)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2018-12-23|
 |  DZone | [Rethinking Service Integrations With Microservices Architecture](https://dzone.com/articles/rethinking-service-integrations-with-microservices-1)  | [Imesh Gunaratne](https://dzone.com/users/238910/imesh.html)  |2017-03-03|
 
+## Ballerina projects
 
+| Repo | Description | Last Commit |Total Issues | Stars | Contributors
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|[bal-game-of-life](https://github.com/janihur/bal-game-of-life)|Several iterations of Conway's Game Of Life| ![GitHub lastcommit](https://img.shields.io/github/last-commit/janihur/bal-game-of-life?label=%20)| ![Github issues](https://img.shields.io/github/issues/janihur/bal-game-of-life?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/janihur/bal-game-of-life?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/janihur/bal-game-of-life?label=%20)
+|[Gateway](https://github.com/sameerajayasoma/app-gateway)| Service designed to manage and improve traffic to and from web applications and apis| ![GitHub lastcommit](https://img.shields.io/github/last-commit/sameerajayasoma/app-gateway?label=%20)| ![Github issues](https://img.shields.io/github/issues/sameerajayasoma/app-gateway?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/sameerajayasoma/app-gateway?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/sameerajayasoma/app-gateway?label=%20)
+|[Object Monitoring](https://github.com/KavinduZoysa/object-monitoring)| Server for moving object monitoring system| ![GitHub lastcommit](https://img.shields.io/github/last-commit/KavinduZoysa/object-monitoring?label=%20)| ![Github issues](https://img.shields.io/github/issues/KavinduZoysa/object-monitoring?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/KavinduZoysa/object-monitoring?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/KavinduZoysa/object-monitoring?label=%20)
+|[msgpack-bal](https://github.com/DrewMcArthur/msgpack-bal)| implementation of the msgpack spec | ![GitHub lastcommit](https://img.shields.io/github/last-commit/DrewMcArthur/msgpack-bal?label=%20)| ![Github issues](https://img.shields.io/github/issues/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/DrewMcArthur/msgpack-bal?label=%20)
