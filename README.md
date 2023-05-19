@@ -28,6 +28,7 @@ This is grouped by different technical areas and ordered by the time.
       - [Transactions](#transactions)
       - [Streams](#streams)
       - [Workflows](#workflows)
+    - [Runtime](#runtime)
     - [Standard and Extended library](#standard-and-extended-library)
       - [HTTP](#http)
       - [HTTP2](#http2)
@@ -47,6 +48,10 @@ This is grouped by different technical areas and ordered by the time.
       - [SOAP](#soap)
       - [Encoding/Decoding](#encodingdecoding)
       - [CSV I/O](#csv-io)
+    - [Extended Library](#extended-library)
+      - [AI](#ai)
+      - [GitHub](#github)
+      - [RabbitMQ](#rabbitmq)
     - [Security](#security)
       - [Ballerina security overview](#ballerina-security-overview)
       - [Microservices Security](#microservices-security)
@@ -130,6 +135,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  SO | [Errors and Error Handling in Ballerina - Part II - Error Subtypes](https://stackoverflow.com/collectives/wso2/articles/76216171/errors-and-error-handling-in-ballerina-part-ii-error-subtypes)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2023-05-10|
 |  SO | [Errors and Error Handling in Ballerina - Part I](https://stackoverflow.com/collectives/wso2/articles/76089431/errors-and-error-handling-in-ballerina-part-i)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2023-04-24|
 |  Blog | [[Ballerina] Error Handling — Part II](https://medium.com/ballerina-techblog/ballerina-error-handling-part-ii-159fbe74c146)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-12-24|
 |  Blog | [[Ballerina] Error Handling — Part I](https://medium.com/ballerina-techblog/ballerina-error-handling-part-i-d581f65c0f8d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2019-09-28  |
@@ -264,9 +270,16 @@ This is grouped by different technical areas and ordered by the time.
 |  Blog | [Writing Ballerina Streaming Extensions](https://medium.com/ballerina-techblog/writing-ballerina-streaming-extensions-304c9f815861)  | [Grainier Perera](https://medium.com/@grainier)  |2019-03-11|
 
 #### Workflows
+
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Blog | [Simple Long Running Workflows with Ballerina](https://lafernando.medium.com/simple-long-running-workflows-with-ballerina-e3617631b81c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2018-10-08|
+
+### Runtime
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Deep Dive Into Ballerina Runtime](https://rxored.github.io/post/compilers/deep-dive-into-ballerina-runtime/)  | [Jayod](https://rxored.github.io/about/)  |2023-02-03|
 
 ### Standard and Extended library 
 
@@ -439,6 +452,26 @@ This is grouped by different technical areas and ordered by the time.
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  SO | [Upload CSV files to Ballerina Service](https://stackoverflow.com/collectives/wso2/articles/73574768/upload-csv-files-to-ballerina-service)  | [Anupama Pathirage](https://stackoverflow.com/users/1308004/anupama-pathirage)  |2022-09-01 |
+
+### Extended Library
+
+#### AI
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [Unleash the Power of AI: Develop a Question Answering Service with OpenAI and Ballerina](https://stackoverflow.com/collectives/wso2/articles/76250498/unleash-the-power-of-ai-develop-a-question-answering-service-with-openai-and-ba)  | [Jayani Hewavitharana](https://stackoverflow.com/users/12160112/jayanih)  |2023-05-15|
+
+#### GitHub
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Use Ballerina Github Connector to interact with Github](https://medium.com/@charuka.udupitiya/use-ballerina-github-connector-to-interact-with-github-c98d69fb7eba)  | [Charuka Udupitiya](https://medium.com/@charuka.udupitiya)  |2023-02-20  |
+
+#### RabbitMQ
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  SO | [RabbitMQ Tutorials in Ballerina. - Part 1](https://stackoverflow.com/collectives/wso2/articles/76282403/rabbitmq-tutorials-in-ballerina-part-1)  | [Arshika Mohottige](https://stackoverflow.com/users/9888793/arshika-mohottige)  |2023-05-15|
 
 ### Security
 
