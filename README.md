@@ -114,6 +114,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [[Introductory] Integration with Ballerina](https://www.youtube.com/playlist?list=PL7JOecNWBb0KTB3vBz9Dkpc676HzhEDkN)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-29|
 |  Blog | [A Quick Introduction to Ballerina: The Network-Aware Programming Language](https://dev.to/hasitha/a-quick-introduction-to-ballerina-the-network-aware-programming-language-5dc3)  | [Hasitha Aravinda](https://dev.to/hasitha)  |2023-06-04|
 |  Medium | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
 |  InfoWorld | [Ballerina: A programming language for the cloud](https://www.infoworld.com/article/3688921/ballerina-a-programming-language-for-the-cloud.html)  | [Martin Heller](https://www.infoworld.com/author/Martin-Heller/)  |2023-03-08|
@@ -166,6 +167,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [XML Manipulation](https://www.youtube.com/playlist?list=PL7JOecNWBb0JxniVXOwROaeFRlDvGd6nj)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-29|
 |  DZone | [XML Processing Made Easy with Ballerina](https://dzone.com/articles/xml-processing-made-easy-with-ballerina)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-10-26|
 
 ##### Immutability 
@@ -214,6 +216,13 @@ This is grouped by different technical areas and ordered by the time.
 |---|---|---|---|
 |  SO | [[Attaching multiple services to the same listener in Ballerina](https://stackoverflow.com/collectives/wso2/articles/73277198/attaching-multiple-services-to-the-same-listener-in-ballerina)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2022-08-09|
 |  Video | [Services and Network Communication](https://www.youtube.com/watch?v=hKBjatIFxyw&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=10)  |   |2021-02-03|
+
+##### Regular Expressions
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Video | [Regular Expressions - An Introduction](https://www.youtube.com/watch?v=cLUt9sYoO0Q&list=PL7JOecNWBb0LEna55vawBJMrm_gFOsgVT&index=2)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-28|
+|  Video | [Bend it like Ballerina: Unveiling our Regex Support](https://www.youtube.com/watch?v=jmSy_n6VUPk&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-08|
 
 ##### Other Data types
 
@@ -683,6 +692,8 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Ballerina Architecture View](https://www.youtube.com/watch?v=GLhIz_qaC0I&list=PL7JOecNWBb0LEna55vawBJMrm_gFOsgVT&index=3)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-06-01|
+|  Video | [New HTTP API Designer](https://www.youtube.com/watch?v=MtBC0VECzIE&list=PL7JOecNWBb0LEna55vawBJMrm_gFOsgVT&index=4)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-30|
 |  Blog | [Ballerina statement editor](https://medium.com/ballerina-techblog/ballerina-statement-editor-a03ae23478d0)  | [Madusha Gunasekara](https://medium.com/@madushagunasekara)  |2022-09-20|
 |  Video | [Ballerina Programming with VS Code ](https://www.youtube.com/watch?v=sZmRCRgVnuI&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=1)  |   |2022-02-23|
 |  Blog | [Ballerina Development With VSCode](https://medium.com/ballerina-techblog/ballerina-development-with-vscode-4a2ee4c82602)  | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2018-11-04|
@@ -743,6 +754,8 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Video | [Package Management with Ballerina](https://www.youtube.com/playlist?list=PL7JOecNWBb0LjuZZ8OXzN5apFqlCb6tnY)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-29|
+|  Video | [Deprecate a Ballerina Package Version](https://www.youtube.com/watch?v=BSX66KTD6Ks&list=PL7JOecNWBb0LEna55vawBJMrm_gFOsgVT)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-28|
 |  DZone | [How to Use Ballerina Local Repository](https://dzone.com/articles/how-to-use-ballerina-local-repository)  | [Pramodya Mendis](https://dzone.com/users/4656527/pramodya.html)  |2021-12-10|
 |  Video | [Managing Dependencies in Ballerina](https://www.youtube.com/watch?v=8Z-i0VxTvK4&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=4)  |   |2021-10-26|
 |  Blog | [Internals of Module Management in Ballerina](https://medium.com/ballerina-techblog/internals-of-module-management-in-ballerina-8dfaac3b52f1)  | [Natasha Wijesekare](https://medium.com/@nwijesekare)  |2018-12-23|
