@@ -97,11 +97,24 @@ This is grouped by different technical areas and ordered by the time.
     - [Integration and design Patterns](#integration-and-design-patterns)
   - [Ballerina projects](#ballerina-projects)
 
+## Ballerina projects
+
+| Repo | Description | Last Commit |Total Issues | Stars | Contributors
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|[bal-game-of-life](https://github.com/janihur/bal-game-of-life)|Several iterations of Conway's Game Of Life| ![GitHub lastcommit](https://img.shields.io/github/last-commit/janihur/bal-game-of-life?label=%20)| ![Github issues](https://img.shields.io/github/issues/janihur/bal-game-of-life?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/janihur/bal-game-of-life?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/janihur/bal-game-of-life?label=%20)
+|[Gateway](https://github.com/sameerajayasoma/app-gateway)| Service designed to manage and improve traffic to and from web applications and apis| ![GitHub lastcommit](https://img.shields.io/github/last-commit/sameerajayasoma/app-gateway?label=%20)| ![Github issues](https://img.shields.io/github/issues/sameerajayasoma/app-gateway?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/sameerajayasoma/app-gateway?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/sameerajayasoma/app-gateway?label=%20)
+|[Object Monitoring](https://github.com/KavinduZoysa/object-monitoring)| Server for moving object monitoring system| ![GitHub lastcommit](https://img.shields.io/github/last-commit/KavinduZoysa/object-monitoring?label=%20)| ![Github issues](https://img.shields.io/github/issues/KavinduZoysa/object-monitoring?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/KavinduZoysa/object-monitoring?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/KavinduZoysa/object-monitoring?label=%20)
+|[msgpack-bal](https://github.com/DrewMcArthur/msgpack-bal)| Implementation of the msgpack spec | ![GitHub lastcommit](https://img.shields.io/github/last-commit/DrewMcArthur/msgpack-bal?label=%20)| ![Github issues](https://img.shields.io/github/issues/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/DrewMcArthur/msgpack-bal?label=%20)
+|[DSA-with-Ballerina](https://github.com/udda1996/DSA-with-Ballerina)| Data structures and algo in Ballerina | ![GitHub lastcommit](https://img.shields.io/github/last-commit/udda1996/DSA-with-Ballerina?label=%20)| ![Github issues](https://img.shields.io/github/issues/udda1996/DSA-with-Ballerina?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/udda1996/DSA-with-Ballerina?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/udda1996/DSA-with-Ballerina?label=%20)
+|[Prettify JSON](https://github.com/ThisaruGuruge/prettify)| Prettify JSON values | ![GitHub lastcommit](https://img.shields.io/github/last-commit/ThisaruGuruge/prettify?label=%20)| ![Github issues](https://img.shields.io/github/issues/ThisaruGuruge/prettify?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/ThisaruGuruge/prettify?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/ThisaruGuruge/prettify?label=%20)
+|[JSON Path](https://github.com/MohamedSabthar/jsonpath)| API to extract information from json values | ![GitHub lastcommit](https://img.shields.io/github/last-commit/MohamedSabthar/jsonpath?label=%20)| ![Github issues](https://img.shields.io/github/issues/MohamedSabthar/jsonpath?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/MohamedSabthar/jsonpath?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/MohamedSabthar/jsonpath?label=%20)
+
 ## Content (Articles/Blogs/Videos)
 ### General
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [A Quick Introduction to Ballerina: The Network-Aware Programming Language](https://dev.to/hasitha/a-quick-introduction-to-ballerina-the-network-aware-programming-language-5dc3)  | [Hasitha Aravinda](https://dev.to/hasitha)  |2023-06-04|
 |  Medium | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
 |  InfoWorld | [Ballerina: A programming language for the cloud](https://www.infoworld.com/article/3688921/ballerina-a-programming-language-for-the-cloud.html)  | [Martin Heller](https://www.infoworld.com/author/Martin-Heller/)  |2023-03-08|
 |  Podcast | [Simplifying Cloud Native Application Development with Ballerina](https://thenewstack.io/simplifying-cloud-native-application-development-with-ballerina/)  | [Eric Newcomer](https://www.linkedin.com/in/enewcomer/)  |2022-07-01|
@@ -220,10 +233,17 @@ This is grouped by different technical areas and ordered by the time.
 |---|---|---|---|
 |  Blog | [Control Structures in Ballerina](https://ayesh9303.medium.com/control-structures-in-ballerina-d13c288fe301)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2021-01-04|
 
+##### Identifiers
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Ballerina Identifiers: A Simple Guide for New Developers](https://dev.to/hasitha/ballerina-identifiers-a-simple-guide-for-new-developers-43ia)  | [Hasitha Aravinda](https://dev.to/hasitha)  |2023-03-15|
+
 #### Data structures and algorithms
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Data Structures and Algorithms with Ballerina](https://stackoverflow.com/collectives/wso2/articles/76286603/data-structures-and-algorithms-with-ballerina)  | [Tharindu Udupitiya](https://stackoverflow.com/users/21901596/tharindu-udupitiya)  |2023-05-19|
 |  Blog | [Ballerina Collections: Tables](https://medium.com/ballerina-techblog/ballerina-collections-tables-f4a0711085f7)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-03-10|
 |  Blog | [Ballerina Collections: Arrays & Maps](https://ayesh9303.medium.com/ballerina-collections-arrays-maps-9df17186b5a1)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-02-22|
 |  Blog | [Basic Algorithms using Ballerina](https://medium.com/ballerina-techblog/basic-algorithms-using-ballerina-908fe8d320a5)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-02-20|
@@ -518,6 +538,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Transport layer security in Ballerina — SSL/TLS with HTTP](https://medium.com/@anupama.pathirage/transport-layer-security-in-ballerina-ssl-tls-with-http-4e3ab289759b)  | [Anupama Pathirage](https://medium.com/@anupama.pathirage)  |2023-05-19 |
 |  Blog | [Configuring Transport Layer Security (TLS/SSL) in Ballerina Client](https://bhashineen.medium.com/configuring-transport-layer-security-tls-ssl-in-ballerina-client-65cdf4baca2f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2019-10-02 |
 |  Blog | [Configure Ciphers and SSL protocols in Ballerina](https://bhashineen.medium.com/configure-ciphers-and-ssl-protocols-in-ballerina-51053004fff)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017-10-30 |
 |  Blog | [SSL Mutual Authentication with Ballerina](https://bhashineen.medium.com/ssl-mutual-authentication-with-ballerina-653aa50f15f)  | [Bhashinee Nirmali](https://medium.com/@bhashineen)  |2017-10-28 |
@@ -803,13 +824,3 @@ This is grouped by different technical areas and ordered by the time.
 |  DZone | [Reactive Microservices Done Right!](https://dzone.com/articles/reactive-microservices-done-right)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-06-24|
 |  Blog | [Clone and Aggregate Integration Pattern with Ballerina](https://medium.com/ballerina-techblog/clone-and-aggregate-integration-pattern-with-ballerina-bdcd537b683)  | [Shafreen Anfar](https://medium.com/@anfar.shafreen)  |2018-12-23|
 |  DZone | [Rethinking Service Integrations With Microservices Architecture](https://dzone.com/articles/rethinking-service-integrations-with-microservices-1)  | [Imesh Gunaratne](https://dzone.com/users/238910/imesh.html)  |2017-03-03|
-
-## Ballerina projects
-
-| Repo | Description | Last Commit |Total Issues | Stars | Contributors
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|[bal-game-of-life](https://github.com/janihur/bal-game-of-life)|Several iterations of Conway's Game Of Life| ![GitHub lastcommit](https://img.shields.io/github/last-commit/janihur/bal-game-of-life?label=%20)| ![Github issues](https://img.shields.io/github/issues/janihur/bal-game-of-life?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/janihur/bal-game-of-life?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/janihur/bal-game-of-life?label=%20)
-|[Gateway](https://github.com/sameerajayasoma/app-gateway)| Service designed to manage and improve traffic to and from web applications and apis| ![GitHub lastcommit](https://img.shields.io/github/last-commit/sameerajayasoma/app-gateway?label=%20)| ![Github issues](https://img.shields.io/github/issues/sameerajayasoma/app-gateway?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/sameerajayasoma/app-gateway?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/sameerajayasoma/app-gateway?label=%20)
-|[Object Monitoring](https://github.com/KavinduZoysa/object-monitoring)| Server for moving object monitoring system| ![GitHub lastcommit](https://img.shields.io/github/last-commit/KavinduZoysa/object-monitoring?label=%20)| ![Github issues](https://img.shields.io/github/issues/KavinduZoysa/object-monitoring?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/KavinduZoysa/object-monitoring?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/KavinduZoysa/object-monitoring?label=%20)
-|[msgpack-bal](https://github.com/DrewMcArthur/msgpack-bal)| implementation of the msgpack spec | ![GitHub lastcommit](https://img.shields.io/github/last-commit/DrewMcArthur/msgpack-bal?label=%20)| ![Github issues](https://img.shields.io/github/issues/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/DrewMcArthur/msgpack-bal?label=%20)
-|[msgpack-bal](https://github.com/udda1996/DSA-with-Ballerina)| implementation of the msgpack spec | ![GitHub lastcommit](https://img.shields.io/github/last-commit/DrewMcArthur/msgpack-bal?label=%20)| ![Github issues](https://img.shields.io/github/issues/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/DrewMcArthur/msgpack-bal?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/DrewMcArthur/msgpack-bal?label=%20)
