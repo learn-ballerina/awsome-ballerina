@@ -6,8 +6,10 @@ This is grouped by different technical areas and ordered by the time.
 > Note: Since the language syntax has changed over the time, some resources may contain invalid code/details. 
 
 - [Awsome Ballerina](#awsome-ballerina)
+  - [Ballerina projects](#ballerina-projects)
   - [Content (Articles/Blogs/Videos)](#content-articlesblogsvideos)
     - [General](#general)
+    - [Listings](#listings)
     - [Language Concepts](#language-concepts)
       - [General Language](#general-language)
         - [Error handling](#error-handling)
@@ -95,7 +97,7 @@ This is grouped by different technical areas and ordered by the time.
     - [Usecases](#usecases)
     - [User stories](#user-stories)
     - [Integration and design Patterns](#integration-and-design-patterns)
-  - [Ballerina projects](#ballerina-projects)
+
 
 ## Ballerina projects
 
@@ -110,13 +112,13 @@ This is grouped by different technical areas and ordered by the time.
 |[JSON Path](https://github.com/MohamedSabthar/jsonpath)| API to extract information from json values | ![GitHub lastcommit](https://img.shields.io/github/last-commit/MohamedSabthar/jsonpath?label=%20)| ![Github issues](https://img.shields.io/github/issues/MohamedSabthar/jsonpath?label=%20) | ![GitHub stars](https://img.shields.io/github/stars/MohamedSabthar/jsonpath?label=%20) | ![GitHub contrib](https://img.shields.io/github/contributors/MohamedSabthar/jsonpath?label=%20)
 
 ## Content (Articles/Blogs/Videos)
+
 ### General
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Video | [[Introductory] Integration with Ballerina](https://www.youtube.com/playlist?list=PL7JOecNWBb0KTB3vBz9Dkpc676HzhEDkN)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-29|
 |  Blog | [A Quick Introduction to Ballerina: The Network-Aware Programming Language](https://dev.to/hasitha/a-quick-introduction-to-ballerina-the-network-aware-programming-language-5dc3)  | [Hasitha Aravinda](https://dev.to/hasitha)  |2023-06-04|
-|  Medium | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
 |  InfoWorld | [Ballerina: A programming language for the cloud](https://www.infoworld.com/article/3688921/ballerina-a-programming-language-for-the-cloud.html)  | [Martin Heller](https://www.infoworld.com/author/Martin-Heller/)  |2023-03-08|
 |  Podcast | [Simplifying Cloud Native Application Development with Ballerina](https://thenewstack.io/simplifying-cloud-native-application-development-with-ballerina/)  | [Eric Newcomer](https://www.linkedin.com/in/enewcomer/)  |2022-07-01|
 |  Blog | [Seven reasons to try out Ballerina](https://medium.com/ballerina-techblog/seven-reasons-to-try-out-ballerina-f3934c4c53f0)  | [shazni nazeer](https://medium.com/@mshazninazeer)  |2022-06-28|
@@ -140,6 +142,16 @@ This is grouped by different technical areas and ordered by the time.
 |  DZone | [Getting Started With Ballerina in 10 Minutes](https://dzone.com/articles/getting-started-with-ballerina-in-10-minutes)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017-03-08|
 |  DZone | [Making Integration Great Again](https://dzone.com/articles/how-to-make-integration-great-again)  | [Chanaka Fernando](https://dzone.com/users/2726658/chanakaudaya.html)  |2017-02-22|
 
+### Listings
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Article | [8 Lesser-Known Programming Languages Worth Exploring](https://www.codelivly.com/lesser-known-programming-languages-worth-exploring/)  | [Rocky](https://www.codelivly.com/author/admin/)  |2023-07-12|
+|  Blog | [10 Lesser-Known Programming Languages Revolutionizing the Tech Industry (July 2023 Edition)](https://levelup.gitconnected.com/10-lesser-known-programming-languages-revolutionizing-the-tech-industry-july-2023-edition-64f356d0df8d)  | [Arslan Mirza]https://arslanmirza.medium.com/)  |2023-07-03|
+|  Article | [Top Microservices Frameworks to Build Scalable Applications](https://www.cmarix.com/blog/best-microservices-frameworks/)  | [Parth Patel](https://www.cmarix.com/blog/author/parth-patel/)  |2023-06-19|
+|  Blog | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
+|  Article | [TOP 12 MICROSERVICES FRAMEWORKS](https://www.tatvasoft.com/blog/top-12-microservices-frameworks/) | [Vishal Shah](https://www.tatvasoft.com/blog/author/vishals/)  |2023-02-17|
+|  Article | [7 Best Programming Languages for Microservices](https://camunda.com/blog/2022/09/seven-best-programming-languages-for-microservices/) | [Josh Wulf](https://camunda.com/blog/author/jwulf/)  |2022-09-27|
 
 ### Language Concepts
 
@@ -252,6 +264,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Representing Graph Data Structure in Ballerina](https://medium.com/ballerina-techblog/representing-graph-data-structure-in-ballerina-d5f23018c76e)  | [Prakanth](https://medium.com/@tprakanth1997)  |2023-06-22|
 |  Blog | [Data Structures and Algorithms with Ballerina](https://stackoverflow.com/collectives/wso2/articles/76286603/data-structures-and-algorithms-with-ballerina)  | [Tharindu Udupitiya](https://stackoverflow.com/users/21901596/tharindu-udupitiya)  |2023-05-19|
 |  Blog | [Ballerina Collections: Tables](https://medium.com/ballerina-techblog/ballerina-collections-tables-f4a0711085f7)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-03-10|
 |  Blog | [Ballerina Collections: Arrays & Maps](https://ayesh9303.medium.com/ballerina-collections-arrays-maps-9df17186b5a1)  | [Ayesh Almeida](https://medium.com/@ayesh9303)  |2022-02-22|
@@ -308,6 +321,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Ballerina Program Execution Flow](https://medium.com/ballerina-techblog/ballerina-program-execution-flow-9f12163a1310)  | [Nadeeshan Dissanayake](https://medium.com/@dmndkdissanayake)  |2023-07-07|
 |  Blog | [Deep Dive Into Ballerina Runtime](https://rxored.github.io/post/compilers/deep-dive-into-ballerina-runtime/)  | [Jayod](https://rxored.github.io/about/)  |2023-02-03|
 
 ### Standard and Extended library 
@@ -337,6 +351,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Data Modeling and Exposing Made Easy with Ballerina Persist and GraphQL](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Shammi Kolonne](https://medium.com/@shammi0107)  |2023-07-05|
 |  SO | [An Intro to GraphQL Federation with Ballerina GraphQL](https://stackoverflow.com/collectives/wso2/articles/76044330/an-intro-to-graphql-federation-with-ballerina-graphql)  | [Mohamed Sabthar](https://stackoverflow.com/users/10354450/mohamed-sabthar)  |2023-04-24|
 |  Blog | [GraphQL Subscriptions with Apache Kafka in Ballerina](https://medium.com/ballerina-techblog/graphql-subscriptions-with-apache-kafka-in-ballerina-b3c296d333cd)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2023-02-06|
 |  Blog | [GraphQL Subscriptions with Ballerina: A Step-By-Step Guide](https://medium.com/ballerina-techblog/graphql-subscriptions-with-ballerina-a-step-by-step-guide-5a75e3a12813)  | [Nuvindu Dias](https://medium.com/@nuvidu-18)  |2022-09-30|
@@ -411,6 +426,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Data Modeling and Exposing Made Easy with Ballerina Persist and GraphQL](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Shammi Kolonne](https://medium.com/@shammi0107)  |2023-07-05|
 |  SO | [Guidelines and best practices for Ballerina SQL client usages](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-18|
 |  SO | [Avoiding SQL Injection in Ballerina](https://stackoverflow.com/collectives/wso2/articles/74602985/avoiding-sql-injection-in-ballerina)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-08| 
 |  SO | [Interacting with a RDBMS using Ballerina](https://stackoverflow.com/collectives/wso2/articles/73795707/interacting-with-a-rdbms-using-ballerina)  | [Extremum](https://stackoverflow.com/users/2782646/extremum)  |2022-09-21|
@@ -571,6 +587,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Build A Container with Zero Effort in Zero Time with Ballerina](https://dzone.com/articles/deploying-ballerina-code-to-cloud)  | [Thevakumar Luheerathan](https://medium.com/@the-luheerathan)  |2023-07-03|
 |  DZone | [Deploying Ballerina Code on the Cloud](https://dzone.com/articles/deploying-ballerina-code-to-cloud)  | [Anuruddha Liyanarachchi](https://dzone.com/users/4637886/anuruddhal.html)  |2021-11-18|
 |  Video | [Code to Cloud with Ballerina](https://www.youtube.com/watch?v=36U5RoTdYhc&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=11)  |   |2021-01-26|
 |  DZone | [Microservices in Practice: Deployment Shouldn't Be an Afterthought](https://dzone.com/articles/microservices-in-practice-deployment)  | [Lakmal Warusawithana](https://dzone.com/users/1141403/lakwarus.html)  |2020-07-06|
@@ -789,7 +806,6 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
-|  Article | [TOP 12 MICROSERVICES FRAMEWORKS](https://www.tatvasoft.com/blog/top-12-microservices-frameworks/) | [Vishal Shah](https://www.tatvasoft.com/blog/author/vishals/)  |2023-02-17|
 |  Techtarget | [A 7-point language comparison of Ballerina vs. Golang](https://www.techtarget.com/searchapparchitecture/tip/A-language-comparison-of-Ballerina-vs-Golang) | [Kerry Doyle](https://www.techtarget.com/contributor/Kerry-Doyle)  |2022-06-30|
 |  Blog | [How to Create a REST API — Spring Boot and Ballerina](https://medium.com/ballerina-techblog/how-to-create-a-rest-api-spring-boot-and-ballerina-cc85477e22c8) | [Nadeeshaan Gunasinghe](https://medium.com/@nadeeshaangunasinghe)  |2022-02-18|
 |  Blog | [gRPC Compression Support in Go, Java, and Ballerina](https://buddhikothalawala.medium.com/grpc-compression-support-in-go-java-and-ballerina-76fefd0f4713)  | [Buddhi Kothalawala](https://medium.com/@buddhikothalawala)  |2021-10-22|
@@ -832,6 +848,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Business to Business integration with Ballerina](https://medium.com/ballerina-techblog/business-to-business-integration-with-ballerina-b24e31ab51f0)  | [Chathura Ekanayake](https://medium.com/@chathura-ekanayake)  |2023-06-20|
 |  Article | [The future of SaaS middleware](https://www.telemediaonline.co.uk/the-future-of-saas-middleware/)  | EILEEN O'CONNOR  |2022-12-07|
 |  DZone | [Practical Microservices Development Patterns: Sync vs. Async](https://dzone.com/articles/practical-microservices-development-patterns-sync)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-07-06|
 |  DZone | [Reactive Microservices Done Right!](https://dzone.com/articles/reactive-microservices-done-right)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-06-24|
