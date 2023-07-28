@@ -147,7 +147,7 @@ This is grouped by different technical areas and ordered by the time.
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
 |  Article | [8 Lesser-Known Programming Languages Worth Exploring](https://www.codelivly.com/lesser-known-programming-languages-worth-exploring/)  | [Rocky](https://www.codelivly.com/author/admin/)  |2023-07-12|
-|  Blog | [10 Lesser-Known Programming Languages Revolutionizing the Tech Industry (July 2023 Edition)](https://levelup.gitconnected.com/10-lesser-known-programming-languages-revolutionizing-the-tech-industry-july-2023-edition-64f356d0df8d)  | [Arslan Mirza]https://arslanmirza.medium.com/)  |2023-07-03|
+|  Blog | [10 Lesser-Known Programming Languages Revolutionizing the Tech Industry (July 2023 Edition)](https://levelup.gitconnected.com/10-lesser-known-programming-languages-revolutionizing-the-tech-industry-july-2023-edition-64f356d0df8d)  | [Arslan Mirza](https://arslanmirza.medium.com/)  |2023-07-03|
 |  Article | [Top Microservices Frameworks to Build Scalable Applications](https://www.cmarix.com/blog/best-microservices-frameworks/)  | [Parth Patel](https://www.cmarix.com/blog/author/parth-patel/)  |2023-06-19|
 |  Blog | [14 Programming Languages You’ve Probably Never Heard Of](https://levelup.gitconnected.com/14-mind-blowing-programming-languages-youve-probably-never-heard-of-b96550980661)  | [Clement Brian](https://clementbrian.medium.com/)  |2023-04-12|
 |  Article | [TOP 12 MICROSERVICES FRAMEWORKS](https://www.tatvasoft.com/blog/top-12-microservices-frameworks/) | [Vishal Shah](https://www.tatvasoft.com/blog/author/vishals/)  |2023-02-17|
