@@ -15,6 +15,7 @@ This is grouped by different technical areas and ordered by the time.
         - [Error handling](#error-handling)
         - [JSON](#json)
         - [XML](#xml)
+        - [Records](#records)
         - [Immutability](#immutability)
         - [Binding Patterns](#binding-patterns)
         - [Functions](#functions)
@@ -31,7 +32,7 @@ This is grouped by different technical areas and ordered by the time.
       - [Streams](#streams)
       - [Workflows](#workflows)
     - [Runtime](#runtime)
-    - [Standard and Extended library](#standard-and-extended-library)
+    - [Ballerina Library](#Ballerina-library)
       - [HTTP](#http)
       - [HTTP2](#http2)
       - [GraphQL](#graphql)
@@ -50,10 +51,13 @@ This is grouped by different technical areas and ordered by the time.
       - [SOAP](#soap)
       - [Encoding/Decoding](#encodingdecoding)
       - [CSV I/O](#csv-io)
+      - [Persist](#persist)
     - [Extended Library](#extended-library)
       - [AI](#ai)
       - [GitHub](#github)
       - [RabbitMQ](#rabbitmq)
+      - [Salesforce](#salesforce)
+      - [AWS Redshift](#aws-redshift)
     - [Security](#security)
       - [Ballerina security overview](#ballerina-security-overview)
       - [Microservices Security](#microservices-security)
@@ -182,6 +186,12 @@ This is grouped by different technical areas and ordered by the time.
 |  Video | [XML Manipulation](https://www.youtube.com/playlist?list=PL7JOecNWBb0JxniVXOwROaeFRlDvGd6nj)  | [Ballerinalang](https://www.youtube.com/@Ballerinalang)  |2023-05-29|
 |  DZone | [XML Processing Made Easy with Ballerina](https://dzone.com/articles/xml-processing-made-easy-with-ballerina)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-10-26|
 
+##### Records
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Mapping values in Ballerina: maps and records](https://medium.com/ballerina-techblog/mapping-values-in-ballerina-maps-and-records-bb957dc97343)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2024-01-19|
+
 ##### Immutability 
 
 |Type   | Title  |Author  | Publisehd Date  |
@@ -226,7 +236,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
-|  SO | [[Attaching multiple services to the same listener in Ballerina](https://stackoverflow.com/collectives/wso2/articles/73277198/attaching-multiple-services-to-the-same-listener-in-ballerina)  | [Maryam Ziyad](https://stackoverflow.com/users/8887779/maryamzi)  |2022-08-09|
+|  Blog | [[Attaching multiple services to the same listener in Ballerina](https://medium.com/ballerina-techblog/attaching-multiple-services-to-the-same-listener-in-ballerina-f0cd0c87766d)  | [Maryam Ziyad](https://medium.com/@maryamzi)  |2023-12-30|
 |  Video | [Services and Network Communication](https://www.youtube.com/watch?v=hKBjatIFxyw&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=10)  |   |2021-02-03|
 
 ##### Regular Expressions
@@ -277,6 +287,12 @@ This is grouped by different technical areas and ordered by the time.
 |---|---|---|---|
 |  Blog | [Ballerina Compilation Process](https://medium.com/ballerina-techblog/ballerina-compilation-process-aba37aa05374)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019-12-17  |
 
+#### Compiler Plugin
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Module Import Restriction with Ballerina Code Analyzers](https://medium.com/ballerina-techblog/module-import-restriction-with-ballerina-code-analyzers-5e21d9644985)  | [Gayal Dassanayake](https://medium.com/@g.c.dassanayake)  |2023-09-04  |
+
 #### Concurrency
 
 |Type   | Title  |Author  | Publisehd Date  |
@@ -295,6 +311,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Call a User-Defined Java Method from Ballerina](https://medium.com/ballerina-techblog/call-a-user-defined-java-method-from-ballerina-5ac9b6b4a087)  | [Dulmina Renuke](htthttps://medium.com/@rdulmina)  |2023-11-15  |
 |  Video | [Java Interoperability in Ballerina](https://www.youtube.com/watch?v=4EINEJAtAg4&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=12)  |   |2020-12-08|
 |  Blog | [Ballerina Interop and all you need to know](https://medium.com/@lanka.vitharana/ballerina-interop-and-all-you-need-to-know-81eef0931120)  | [Rajith Vitharana](https://medium.com/@lanka.vitharana)  |2019-12-10  |
 
@@ -321,10 +338,14 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Unveiling Ballerina GraalVM image: A comparative analysis](https://medium.com/ballerina-techblog/unveiling-ballerina-graalvm-image-a-comparative-analysis-976b07bf3f63)  | [Krishnananthalingam Tharmigan](https://medium.com/@ktharmi176)  |2024-01-02|
+|  Blog | [Ballerina meets GraalVM in the Cloud: A Winning Formula for Cloud-Native Applications](https://medium.com/ballerina-techblog/ballerina-meets-graalvm-in-the-cloud-a-winning-formula-for-cloud-native-ed19d79b5fe2)  | [Krishnananthalingam Tharmigan](https://medium.com/@ktharmi176)  |2023-09-01|
+|  Blog | [Unveiling Ballerina GraalVM image: Tackling Production Issues](https://medium.com/ballerina-techblog/unveiling-ballerina-graalvm-image-tackling-production-issues-c21798e165c3)  | [Krishnananthalingam Tharmigan](https://medium.com/@ktharmi176)  |2023-08-14|
+|  Blog | [Ballerina meets GraalVM: From code to native executable](https://medium.com/ballerina-techblog/ballerina-meets-graalvm-from-code-to-native-executable-6c99b47f6529)  | [Krishnananthalingam Tharmigan](https://medium.com/@ktharmi176)  |2024-08-13|
 |  Blog | [Ballerina Program Execution Flow](https://medium.com/ballerina-techblog/ballerina-program-execution-flow-9f12163a1310)  | [Nadeeshan Dissanayake](https://medium.com/@dmndkdissanayake)  |2023-07-07|
 |  Blog | [Deep Dive Into Ballerina Runtime](https://rxored.github.io/post/compilers/deep-dive-into-ballerina-runtime/)  | [Jayod](https://rxored.github.io/about/)  |2023-02-03|
 
-### Standard and Extended library 
+### Ballerina library 
 
 #### HTTP
 
@@ -351,6 +372,8 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [GraphQL Federation with Ballerina and Apollo — Part II](https://medium.com/ballerina-techblog/graphql-federation-with-ballerina-and-apollo-part-ii-d05ee4fcd796)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2023-10-03|
+|  Blog | [GraphQL Federation with Ballerina and Apollo — Part I](https://medium.com/ballerina-techblog/graphql-federation-with-ballerina-and-apollo-part-i-680f5aeae131)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2023-10-02|
 |  Blog | [Data Modeling and Exposing Made Easy with Ballerina Persist and GraphQL](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Shammi Kolonne](https://medium.com/@shammi0107)  |2023-07-05|
 |  SO | [An Intro to GraphQL Federation with Ballerina GraphQL](https://stackoverflow.com/collectives/wso2/articles/76044330/an-intro-to-graphql-federation-with-ballerina-graphql)  | [Mohamed Sabthar](https://stackoverflow.com/users/10354450/mohamed-sabthar)  |2023-04-24|
 |  Blog | [GraphQL Subscriptions with Apache Kafka in Ballerina](https://medium.com/ballerina-techblog/graphql-subscriptions-with-apache-kafka-in-ballerina-b3c296d333cd)  | [Thisaru Guruge](https://medium.com/@thisaru)  |2023-02-06|
@@ -426,6 +449,8 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Mastering Ballerina SQL Clients: Your Go-To Guide](https://medium.com/ballerina-techblog/mastering-ballerina-sql-clients-your-go-to-guide-77411de18b37)  | [Niveathika](https://medium.com/@niveathika)  |2022-12-01| 
+|  Blog | [Guarding Against SQL Injection in Ballerina Applications](https://medium.com/ballerina-techblog/guarding-against-sql-injection-in-ballerina-applications-%EF%B8%8F-a20e642f0e49)  | [Niveathika](https://medium.com/@niveathika)  |2022-11-28| 
 |  Blog | [Data Modeling and Exposing Made Easy with Ballerina Persist and GraphQL](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Shammi Kolonne](https://medium.com/@shammi0107)  |2023-07-05|
 |  SO | [Guidelines and best practices for Ballerina SQL client usages](https://stackoverflow.com/collectives/wso2/articles/74843098/guidelines-and-best-practices-for-ballerina-sql-client-usages)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-18|
 |  SO | [Avoiding SQL Injection in Ballerina](https://stackoverflow.com/collectives/wso2/articles/74602985/avoiding-sql-injection-in-ballerina)  | [Niveathika](https://stackoverflow.com/users/4027644/niveathika)  |2022-12-08| 
@@ -466,6 +491,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [A guide for Date/Time conversion in Ballerina Language](https://medium.com/ballerina-techblog/a-guide-for-date-time-conversion-in-ballerina-language-bad832fd45dc)  | [sahanhe](https://medium.com/@sahanhemachandra)  |2023-12-17|
 |  SO | [A guide for Date/Time conversion in Ballerina Language](https://stackoverflow.com/collectives/wso2/articles/73277351/a-guide-for-date-time-conversion-in-ballerina-language)  | [sahanhe](https://stackoverflow.com/users/6795551/sahanhe)  |2022-08-08|
 
 #### Cache
@@ -498,6 +524,12 @@ This is grouped by different technical areas and ordered by the time.
 |---|---|---|---|
 |  SO | [Upload CSV files to Ballerina Service](https://stackoverflow.com/collectives/wso2/articles/73574768/upload-csv-files-to-ballerina-service)  | [Anupama Pathirage](https://stackoverflow.com/users/1308004/anupama-pathirage)  |2022-09-01 |
 
+#### Persist
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Enhanced Data Management: Google Sheets Empowered by `bal persist`](https://medium.com/ballerina-techblog/enhanced-data-management-google-sheets-empowered-by-bal-persist-392096c045c8)  | [Sahan Hemachandra](https://medium.com/@sahanhemachandra)  |2023-12-17 |
+
 ### Extended Library
 
 #### AI
@@ -516,7 +548,30 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Connecting Ballerina to CloudAMQP: A Quick Guide](https://medium.com/ballerina-techblog/a-guide-to-connecting-ballerina-rabbitmq-library-to-cloud-amqp-742102692a8c)  | [Arshika Mohottige](https://medium.com/@arshika)  |2024-01-07|
+|  Blog | [Mastering Work Queues in RabbitMQ with Ballerina](https://medium.com/ballerina-techblog/mastering-work-queues-in-rabbitmq-with-ballerina-edb70587ee76)  | [Arshika Mohottige](https://medium.com/@arshika)  |2023-11-08|
 |  SO | [RabbitMQ Tutorials in Ballerina. - Part 1](https://stackoverflow.com/collectives/wso2/articles/76282403/rabbitmq-tutorials-in-ballerina-part-1)  | [Arshika Mohottige](https://stackoverflow.com/users/9888793/arshika-mohottige)  |2023-05-15|
+
+#### Salesforce
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Seamless Salesforce Integration with Ballerina](https://medium.com/@arshika/seamless-salesforce-integration-with-ballerina-3d7a4a76d466)  | [Arshika Mohottige](https://medium.com/@arshika)  |2024-02-22|
+|  Blog | [Integrations — A key for getting the most out of Salesforce](https://medium.com/ballerina-techblog/integrations-a-key-for-getting-the-most-out-of-salesforce-7fc6556acead)  | [Chathura Ekanayake](https://medium.com/@chathura-ekanayake)  |2023-11-13|
+|  Blog | [Harvesting Sales Data from B2B Channels](https://medium.com/ballerina-techblog/harvesting-sales-data-from-b2b-channels-6cf8f54ab194)  | [Chathura Ekanayake](https://medium.com/@chathura-ekanayake)  |2023-09-05|
+
+#### AWS Redshift
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Amazon Redshift Integration with Ballerina](https://medium.com/aws-tip/amazon-redshift-integration-with-ballerina-17e8b8db07e1)  | [Arshika Mohottige](https://medium.com/@arshika)  |2024-02-05|
+|  Blog | [Connecting Ballerina to AWS Redshift: A Quick Guide](https://medium.com/ballerina-techblog/connecting-ballerina-to-aws-redshift-a-quick-guide-d7369abae0e2)  | [Arshika Mohottige](https://medium.com/@arshika)  |2024-01-07|
+
+#### NATS
+
+|Type   | Title  |Author  | Publisehd Date  |
+|---|---|---|---|
+|  Blog | [Simplifying Distributed Systems with NATS and Ballerina](https://medium.com/@arshika/simplifying-distributed-systems-with-nats-and-ballerina-9dfd4bf053a4)  | [Arshika Mohottige](https://medium.com/@arshika)  |2024-01-23|
 
 ### Security
 
@@ -605,6 +660,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Expose a simple Ballerina program as an AWS Lambda Function](https://medium.com/ballerina-techblog/expose-a-simple-ballerina-program-as-an-aws-lambda-function-46a26dc345a5)  | [Praneesha Chandrasiri](https://medium.com/@praneesha_15763)  |2023-07-13|
 |  Video | [Serverless in Ballerina](https://www.youtube.com/watch?v=12gosblVlhY&list=PL7JOecNWBb0JAdYWqeGmD35MjE0KTjHXU&index=14)  |   |2020-10-13|
 |  Blog | [Practical Serverless: Integrating Amazon S3 and Rekognition with Ballerina](https://medium.com/ballerina-techblog/practical-serverless-integrating-amazon-s3-and-rekognition-with-ballerina-f338cdf6015c)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020-08-31|
 |  Blog | [Test your Ballerina Function written for AWS Lambda](https://medium.com/ballerina-techblog/test-your-ballerina-function-written-for-aws-lambda-4dceff6c461a)  | [Hemika Kodikara](https://medium.com/@hemika.kodikara)  |2020-02-20|
@@ -618,6 +674,7 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Invoke an Azure Function via a Cosmos DB Trigger Using Ballerina](https://medium.com/ballerina-techblog/invoke-an-azure-function-via-a-cosmos-db-trigger-using-ballerina-4e69c8bc41d)  | [Praneesha Chandrasiri](https://medium.com/@praneesha_15763)  |2023-09-07|
 |  SO | [Building Azure Functions Project With Ballerina](https://stackoverflow.com/collectives/wso2/articles/74323311/building-azure-functions-project-with-ballerina)  | [Anjana Supun](https://stackoverflow.com/users/7980815/anjana-supun)  |2022-11-04|
 |  Blog | [Practical Serverless: A Scalable OCR Solution in 10 Minutes](https://medium.com/ballerina-techblog/practical-serverless-a-scalable-ocr-solution-in-10-minutes-af9f88c6b008)  | [Anjana Fernando](https://medium.com/@lafernando)  |2020-08-03|
 |  Blog | [Introduction to Azure Functions in Ballerina](https://medium.com/ballerina-techblog/introduction-to-azure-functions-in-ballerina-ffc774eae034) | [Anjana Fernando](https://medium.com/@lafernando)  |2020-07-23|
@@ -640,6 +697,8 @@ This is grouped by different technical areas and ordered by the time.
 
 |Type   | Title  |Author  | Publisehd Date  |
 |---|---|---|---|
+|  Blog | [Observe Ballerina Integrations with New Relic Extension](https://medium.com/ballerina-techblog/observe-ballerina-integrations-with-new-relic-extension-c6634097b061)  | [Nipuna Madhushan](https://medium.com/@nipunamadhushan96)  |2023-12-15|
+|  Blog | [Observe Ballerina Programs with New Relic](https://medium.com/ballerina-techblog/observe-ballerina-programs-with-new-relic-086948d045c7)  | [Nipuna Madhushan](https://medium.com/@nipunamadhushan96)  |2023-10-06|
 |  DZone | [Automated Microservices Observability in the Cloud](https://dzone.com/articles/automated-microservices-observability-in-the-cloud)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2021-10-12|
 |  DZone | [Rethinking Programming: Automated Observability](https://dzone.com/articles/rethinking-programming-automated-observability)  | [Anjana Fernando](https://dzone.com/users/715279/lafernando.html)  |2020-05-01|
 
